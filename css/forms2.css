@@ -1,0 +1,244 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+*:focus,
+*:before:focus,
+*:after:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #FCCB60;
+}
+
+form {
+  padding: 10px;
+}
+.cb-input-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    display: inline-grid;
+    margin: 0 auto;
+    /* padding-top: 20px; */
+    /* text-align: center; */
+}
+.cb-input-2 label {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 100%;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  font-size: 12px;
+  padding-left: 3px;
+}
+.cb-input-2 input,
+.cb-input-2 select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: block; 
+    background-color: #ffffff; 
+    font-size: 16px; 
+    border-color: transparent;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+.cb-input-2 input:nth-last-child(2),
+.cb-input-2 select:nth-last-child(2) {
+  border-right: 3px solid #e1e1e1;
+}
+.cb-input-2 input[type="file"],
+.cb-input-2 select[type="file"] {
+  position: fixed;
+  top: -1000px;
+}
+.cb-input-2 input[type="checkbox"],
+.cb-input-2 select[type="checkbox"] {
+  position: fixed;
+  top: -1000px;
+}
+.cb-input-2 input[type="checkbox"] + label,
+.cb-input-2 select[type="checkbox"] + label {
+  height: 44px;
+  width: 44px;
+  border: 3px solid #e1e1e1;
+  background-color: #FAFAFA;
+  font-size: 24px;
+}
+.cb-input-2 input[type="checkbox"] + label + label,
+.cb-input-2 select[type="checkbox"] + label + label {
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.cb-input-2 input[type="checkbox"] + label i,
+.cb-input-2 select[type="checkbox"] + label i {
+  display: none;
+}
+.cb-input-2 input[type="checkbox"]:focus + label,
+.cb-input-2 select[type="checkbox"]:focus + label {
+  outline: none;
+/*  box-shadow: 0 0 2px 2px #c7c7c7;*/
+  z-index: 2;
+}
+.cb-input-2 input[type="checkbox"]:checked + label i,
+.cb-input-2 select[type="checkbox"]:checked + label i {
+  display: inline;
+}
+.cb-input-2 input ~ label,
+.cb-input-2 select ~ label {
+  -webkit-box-flex: 0;
+/*
+  -webkit-flex: 0 0 44px;
+      -ms-flex: 0 0 44px;
+          flex: 0 0 44px;
+*/
+  display: -webkit-box;
+  display: -webkit-inline-block;
+  display: -ms-flexbox;
+  display: inline-block;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+  font-size: 16px;
+/*
+  border: 3px solid #FCCB60;
+  background-color: #FCCB60;
+*/
+}
+.cb-input-2 input ~ label:hover,
+.cb-input-2 select ~ label:hover {
+/*
+  border: 1px solid #FCCB60;
+  background-color: #FCCB60;
+*/
+}
+.cb-input-2 input:focus:hover + ul,
+.cb-input-2 select:focus:hover + ul,
+.cb-input-2 input:focus ~ div.tooltip,
+.cb-input-2 select:focus ~ div.tooltip {
+  display: block;
+}
+.cb-input-2 button {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 44px;
+      -ms-flex: 0 0 44px;
+          flex: 0 0 44px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+    width: 15%;
+/*
+  border: 3px solid #FCCB60;
+  background-color: #FCCB60;
+*/
+  cursor: pointer;
+}
+.cb-input-2 button:hover {
+/*
+  border: 1px solid #FCCB60;
+  background-color: #FCCB60;
+*/
+}
+.cb-input-2 ul {
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  left: 0;
+  right: 0;
+  top: calc(100%);
+  border: 1px solid #999;
+  background-color: #fff;
+  z-index: 10;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+}
+.cb-input-2 ul:hover {
+  display: block;
+}
+.cb-input-2 li {
+  padding: 5px;
+}
+.cb-input-2 li:hover {
+  background-color: #e1e1e1;
+  cursor: pointer;
+}
+.cb-input-2 .tooltip {
+  display: none;
+  position: absolute;
+  right: -275px;
+  width: 250px;
+  padding: 13px;
+  background-color: #fff;
+  -webkit-filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.5));
+}
+.cb-input-2 .tooltip:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -15px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #fff;
+}
+
+input[type=number]{
+  color: #737277;
+}
+
+
+#message-input {
+    padding-bottom: 100px;
+
+
+@media (max-width: 480px) {
+  .cb-input-2 {
+    width: 100%;
+  }
+  .cb-input-2 ul {
+    display: none !important;
+  }
+  .tooltip {
+    display: none;
+  }
+}
+    
+    

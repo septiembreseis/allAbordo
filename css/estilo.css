@@ -1,0 +1,890 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+p{
+    color: #737277;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+a button:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.divider{
+    border: 1px solid #B0AFB5;
+}
+
+.big-blue{
+    color: #27387E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.big-blue-mon{
+    color: #27387E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.big-gray-mon{
+    color: #737277;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.big-gray{
+    color: #737277;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.big-green{
+    color: #417505;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.big-pink{
+    color: #D01D56;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.big-pink-op{
+    color: #D01D56;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.big-white{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 3.5em;
+}
+
+.big-white-op{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.bigbig-white{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 5.5em;
+}
+
+.rosa-sub{
+    color: #D01D56;
+    text-decoration: underline;
+}
+
+.rosa-sub:hover{
+    color: #D01D56;
+    text-decoration: underline;
+}
+
+nav{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav a{
+    color: #27387E;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #D01D56;
+}
+
+.sesion{
+    background-color: #E0DFE5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.sesion span{
+    margin: 0 10px;
+    color: #4A4A4A;
+}
+
+.sesion a{
+    color: #4A4A4A;
+}
+
+.sesion a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sesion img{
+    margin-right: 8px;
+}
+
+.submenu{
+    background-color: #27387E;
+    padding: 10px 0 10px 10px;
+}
+
+.submenu span{
+    margin: 0 0 0 10px;
+}
+
+.submenu a{
+    color: #FFFFFF;
+}
+
+.submenu a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.item1{
+    background: url(../img/slide-autobus.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+}
+
+.item2{
+    background: url(../img/slide-paquete.jpg);
+    background-repeat: no-repeat;
+    background-position: top 20% center;
+    background-size: cover;
+    height: 350px;
+}
+
+.item3{
+    background: url(../img/slide-van.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+}
+
+
+.nav-tabs {
+/*  border-bottom: 1px solid #dee2e6;*/
+  height: 50px;
+}
+
+.pestanas-index{
+    padding-top: 50px;
+}
+
+.nav-tabs .nav-link img{
+    width: 12%;
+}
+
+.nav-tabs .nav-link.active img{
+    width: 13%;
+}
+
+.label{
+    padding-top: 5px;
+    font-size:.8em;
+}
+
+/**************************/
+
+.pad{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.lista-gris ul li{
+    color: #737277;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.rastrear{
+    background-color: #D01D56;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 35px 10px 35px 10px;
+    margin: 0 0 50px 0;
+}
+
+.rastrear img{
+    padding: 5px 5px 20px 5px;
+}
+
+
+.btn-sm-rosa{
+    background-color: #D01D56;
+    border: 1px solid transparent;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 100px;
+    height: 50px;
+}
+
+.btn-med{
+    background-color: #27387E;
+    border: 1px solid transparent;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 180px;
+    height: 50px;
+}
+
+.btn-med-rosa{
+    background-color: #D01D56;
+    border: 1px solid transparent;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 180px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.btn-med-rosa img{
+    padding-left: 5px;
+    width: 19%;
+}
+
+.btn-big{
+    background-color: #27387E;
+    border: 1px solid transparent;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    width: 100%;
+    height: 70px;
+}
+
+.btn-whats{
+    background-color: #27387E;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 35px 10px 35px;
+    text-align: left;
+}
+
+.btn-historial{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid #B0AFB5;
+    border-radius: 0;
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+    background: url(../img/vectores/f1pasajeros.svg);
+    background-repeat: no-repeat;
+    background-position: right 5% center;
+    font-family: 'Open Sans', sans-serif;
+    color: #27387E;
+    font-size: 14px;
+    text-align: left;
+}
+
+.btn-historial:hover{
+    cursor: pointer;
+}
+
+#historial.btn-historial {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid #B0AFB5;
+    border-radius: 0;
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+    background: url(../img/vectores/f1pasajeros.svg);
+    background-repeat: no-repeat;
+    background-position: right 5% center;
+    font-family: 'Open Sans', sans-serif;
+    color: #27387E;
+    font-size: 14px;
+    text-align: left;
+}
+
+#historial.btn-historial2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid #B0AFB5;
+    border-radius: 0;
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+    background: url(../img/vectores/f1pasajeros2.svg);
+    background-repeat: no-repeat;
+    background-position: right 5% center;
+    font-family: 'Open Sans', sans-serif;
+    color: #27387E;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+footer{
+    background-color: #27387E;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 100px;
+    padding: 70px 40px 15px 40px;
+}
+
+footer  ul a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer  ul a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer h4{
+    font-weight: 300;
+}
+
+footer ul li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+footer span{
+    font-size: 14px;
+}
+
+footer span a{
+    color: #ffffff;
+    border-left: 1px solid #D01D56;
+    padding: 0 10px 0 10px;
+}
+
+footer span a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.redes img{
+    margin: 0 20px 0 30px;
+}
+
+/**************************/
+
+.hero-rosa{
+    background-color: #D01D56;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hero-rosa-paq{
+    background: url(../img/paq-rastreo.png) #D01D56;
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hero-nosotros{
+    background: url(../img/heronosotros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 450px;
+}
+
+.hero-nosotros h1{
+    padding-top: 10%;
+}
+
+.banner-destino{
+    background-image: url(../img/banner-destino.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 450px;
+}
+
+.van-fondo{
+    background-image: url(../img/vanFondo.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left 110% center;
+    
+}
+.altura{
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+}
+
+.bienvenida-nos{
+    background-color: #D01D56;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bienvenida-nos p{
+    color: #ffffff;
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.no-transportable{
+    background: url(../img/no-transportable.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    padding-top: 100px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.quienes{
+    background: url(../img/Quienessomos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    padding-top: 150px;
+    text-align: justify;
+}
+
+.quienes p{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.reconocimientos .col-sm-4{
+    border: 1px solid #B0AFB5;
+    padding: 50px 0 50px 0;
+}
+
+.reconocimientos img{
+    padding: 10px 0 20px 0;
+}
+
+.politicas-viaje .col-sm-6{
+    border: 1px solid #B0AFB5;
+    padding: 100px 30px 100px 30px;
+}
+
+
+.contacto-nos ul li{
+    list-style-type:none;
+    padding-top: 10px;
+    color: #737277;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+4
+.contacto-nos ul li img{
+    margin: 0 15px;
+}
+
+.contacto-nos h4{
+    color: #737277;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.desc-politicas{
+    background: url(../img/desc-politicas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 450px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.desc-politicas h2{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.desc-tarjeta{
+    background: url(../img/back-tarjeta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 400px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.desc-tarjeta h2{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.desc-restr{
+    background: url(../img/restricciones.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.desc-restr h2{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.restricciones ul li{
+    list-style-type: none;
+    padding-top: 10px;
+    color: #737277;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.restricciones ul li img{
+    margin: 0 15px 10px;
+}
+
+.lil-blue{
+    color: #27387E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.estatus-corrida{
+    background-color: #27387E;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    height: 400px;
+    padding: 15px 15px 15px 15px;
+}
+
+.medidas p{
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+.tab-content{
+/*    height: 800px;*/
+    padding: 50px 10px 20px 10px;
+}
+
+#boleto{
+    background-image: url(../img/back-compra.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#viaje{
+    background-image: url(../img/back-renta.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#paquete{
+    background-image: url(../img/back-envio.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+
+.detalle{
+    background-color: #fff;
+    color: #000;
+    margin-right: 10px;
+}
+
+.detalle p{
+    color: #000000;
+}
+
+.detalle .fas{
+    color: #27387E;
+    font-size: .8em;
+}
+
+.mdestino{
+    border: 2px solid #9B9B9B;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+
+
+.m-btn-med-rosa{
+        background-color: #D01D56;
+        border: 1px solid transparent;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.8em;
+        font-weight: 600;
+        width: 150px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+.m-btn-med-rosa img{
+    width: 15%;
+}
+
+.mlabel{
+    padding-top: 5px;
+    font-size:.8em;
+    color: #D01D56;
+}
+
+html, body, #map-canvas {
+    height: 90%;
+    margin: 0px;
+    padding: 0px
+}
+
+@media(max-width: 1025px){
+        .btn-med-rosa{
+        background-color: #D01D56;
+        border: 1px solid transparent;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        width: 140px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .btn-med-rosa img{
+        padding-left: 10px;
+        width: 23%;
+    }
+}
+
+
+@media(max-width: 768px){
+        .btn-whats{
+        background-color: #27387E;
+        border: 1px solid #ffffff;
+        border-radius: 50px;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        padding: 10px 25px 10px 25px;
+        text-align: left;
+        margin-top: 30px;
+    }
+    
+    .btn-whats h5{
+        font-size: 1rem;
+    }
+    
+    .btn-whats h6{
+        font-size: 0.9rem;
+    }
+    
+        .redes img{
+        margin: 0 0 0 30px;
+    }
+    
+        .rastrear{
+        background-color: #D01D56;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        padding: 35px 10px 35px 10px;
+        margin: 30px 5px 50px 5px;
+    }
+    
+    .tarjeta{
+        margin: 0 40px;
+    }
+    
+    .hero-nosotros{
+        background: url(../img/heronosotros.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 300px;
+    }
+
+    .hero-nosotros h1{
+        padding-top: 20%;
+    }
+    
+    .bienvenida-nos{
+        background-color: #D01D56;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .quienes{
+        background: url(../img/Quienessomos.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: inherit;
+        padding-top: 0;
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+
+    .quienes p{
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    
+    .reconocimientos .col-sm-4{
+        border: 1px solid #B0AFB5;
+        padding: 50px 0 50px 0;
+    }
+
+    .reconocimientos img{
+        padding: 10px 0 20px 0;
+    }
+    
+        .banner-destino{
+        background-image: url(../img/banner-destino.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center right;
+        height: 500px;
+        padding: 0px 30px 20px 30px;
+    }
+    
+        .estatus-corrida{
+        background-color: #27387E;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        height: 400px;
+        padding: 20px 35px 15px 35px;
+    }
+    
+        .btn-big{
+        background-color: #27387E;
+        border: 1px solid transparent;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5em;
+        font-weight: 600;
+        width: 70%;
+        height: 70px;
+        margin: 20px 70px 0px 70px;
+    }
+    
+    .serv-cliente{
+        padding: 10px 10px 10px 10px;
+    }
+    
+        .nav-tabs {
+      height: 90px;
+    }
+    
+        .nav-tabs .nav-item {
+        margin-bottom: -1px;
+        width: 33%;
+    }
+    
+    
+}
+
+@media(max-width: 544px){
+    
+        .nav-tabs .nav-link {
+        border: 1px solid transparent;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+        border-right: 2px solid #ffffff;
+        line-height: 1em;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        transition: 0.18s ease-in;
+        background-color: #27387E;
+    }
+    
+        .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        color: #ffffff;
+        font-size: 1em;
+        background-color: #D01D56;
+    }
+    
+    .nav-tabs .nav-link img {
+        width: 12%;
+        filter: brightness(0) invert(1);
+    }
+    
+    .nav-tabs .nav-link.active img {
+        width: 13%;
+        filter: brightness(0) invert(1);
+        
+    }
+    
+    .pagos img{
+        width: 70%;
+    }
+    
+        .btn-med{
+        background-color: #27387E;
+        border: 1px solid transparent;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        width: 180px;
+        height: 50px;
+        margin-top: 15px;
+    }
+    
+    .nav-tabs {
+      height: 40px;
+    }
+    
+}

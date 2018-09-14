@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Formulario-VAN" transform="translate(-485.000000, -268.000000)" fill="#737277">
+            <path d="M489,283 L496,283 L496,281 L489,281 L489,283 Z M487,286 L501,286 L501,275 L487,275 L487,286 Z M501,270 L500,270 L500,268 L498,268 L498,270 L490,270 L490,268 L488,268 L488,270 L487,270 C485.89,270 485.01,270.9 485.01,272 L485,286 C485,287.1 485.89,288 487,288 L501,288 C502.1,288 503,287.1 503,286 L503,272 C503,270.9 502.1,270 501,270 Z M489,279 L499,279 L499,277 L489,277 L489,279 Z" id="Fill-1"></path>
+        </g>
+    </g>
+</svg>

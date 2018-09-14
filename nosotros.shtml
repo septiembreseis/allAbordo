@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <div class="container-fluid hero-nosotros">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h1 class="big-white">Acerca de Nosotros</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid bienvenida-nos">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3 text-center">
+                <img src="/img/AllAbordoBlanco.svg" class="img-responsive">
+                <p>Nace de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en  comodidad, seguridad y confianza.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid quienes">
+        <div class="row">
+            <div class="col-sm-2 offset-sm-2 col-12" style="border-right: 1px solid #ffffff;">
+               <br><br>
+                <h1 class="big-white">Quienes<br>Somos</h1>
+            </div>
+            <div class="col-sm-5 offset-sm-1 col-12">
+                <p>Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza clásica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del latín, descubrió la fuente indudable.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container pad reconocimientos">
+        <div class="row text-center">
+            <div class="col-sm-4 col-6" style="border-top: 1px solid transparent; border-left: 1px solid transparent;">
+                <img src="/img/vectores/trofeo.svg" class="img-responsive">
+                <h3 class="big-blue">Lorem Ipsum</h3>
+                <p>El pasaje estándar Lorem Ipsum, usado desde el año 1500.</p>
+            </div>
+            <div class="col-sm-4 col-6" style="border-top: 1px solid transparent;">
+                <img src="/img/vectores/trofeo.svg" class="img-responsive">
+                <h3 class="big-blue">Lorem Ipsum</h3>
+                <p>El pasaje estándar Lorem Ipsum, usado desde el año 1500.</p>
+            </div>
+            <div class="col-sm-4 col-6" style="border-top: 1px solid transparent; border-right: 1px solid transparent;">
+                <img src="/img/vectores/trofeo.svg" class="img-responsive">
+                <h3 class="big-blue">Lorem Ipsum</h3>
+                <p>El pasaje estándar Lorem Ipsum, usado desde el año 1500.</p>
+            </div>
+            <div class="col-sm-4 col-6" style="border-left: 1px solid transparent;">
+                <img src="/img/vectores/trofeo.svg" class="img-responsive">
+                <h3 class="big-blue">Lorem Ipsum</h3>
+                <p>El pasaje estándar Lorem Ipsum, usado desde el año 1500.</p>
+            </div>
+            <div class="col-sm-4 col-6">
+                <img src="/img/vectores/trofeo.svg" class="img-responsive">
+                <h3 class="big-blue">Lorem Ipsum</h3>
+                <p>El pasaje estándar Lorem Ipsum, usado desde el año 1500.</p>
+            </div>
+            <div class="col-sm-4 col-6" style="border-right: 1px solid transparent;">
+                <img src="/img/vectores/trofeo.svg" class="img-responsive">
+                <h3 class="big-blue">Lorem Ipsum</h3>
+                <p>El pasaje estándar Lorem Ipsum, usado desde el año 1500.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container contacto-nos pad">
+        <div class="row">
+            <div class="col-sm-8" style="font-size: 20px;">
+                <ul>
+                    <h4>Dirección</h4>
+                    <li>Av. Aquiles Serdán 301 Pte. Int. 27, Col. Centro</li>
+                    <li>Los Mochis, Sinaloa.</li>
+                    <li>C.P. 81200</li>
+                    <br>
+                    <li><img src="/img/vectores/tel-rosa.svg"> (668) 146 09 84</li>
+                    <li><img src="/img/vectores/mail-rosa.svg"> cotizaciones@allabordo.com</li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <ul>
+                    <h4>Encuéntranos en:</h4>
+                    <a href="https://www.facebook.com/AutotransportesallAbordo/" target="blank"><li><img src="/img/vectores/fb-rosa.svg"> @AutotransportesAllAbordo</li></a>
+                    <a href="https://twitter.com/AbordoAll" target="blank"><li><img src="/img/vectores/tw-rosa.svg"> @AbordoAll</li></a>
+                    <a href="https://www.instagram.com/all.abordo/" target="blank"><li><img src="/img/vectores/ig-rosa.svg"> @all.Abordo</li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!--#include virtual="/include/footer.htm"-->
+
+
+</body>
+
+</html>

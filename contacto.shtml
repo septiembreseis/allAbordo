@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <div class="container-fluid hero-rosa pad">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="big-white">Contáctanos</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container pad">
+        <div class="row serv-cliente">
+            <div class="col-sm-6 offset-sm-1 col-11 offset-1">
+               <br><br>
+                <h2 class="big-blue">Servicio al cliente</h2>
+                <p>Escríbenos después de tu viaje y déjanos tus comentarios. Antes de o durante el viaje por favor llámanos.</p>
+                <p>Nombre completo:</p>
+                <div class='cb-input blueplace'>
+                    <input id='nombre' name="nombre" type='text' placeholder="Escribe tu(s) nombre(s) y apellido(s)" required />
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>Estado</p>
+                            <select class="custom-select est-cd">
+                              <option selected>Selecciona tu estado</option>
+                              <option value="1">Opción 1</option>
+                              <option value="2">Opción 2</option>
+                              <option value="3">Opción 3</option>
+                              <option value="4">Opción 4</option>
+                              <option value="5">Opción 5</option>
+                              <option value="6">Opción 6</option>
+                              <option value="7">Opción 7</option>
+                              <option value="8">Opción 8</option>
+                              <option value="9">Opción 9</option>
+                            </select>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>Ciudad</p>
+                            <select class="custom-select est-cd">
+                              <option selected>Selecciona tu ciudad</option>
+                              <option value="1">Opción 1</option>
+                              <option value="2">Opción 2</option>
+                              <option value="3">Opción 3</option>
+                              <option value="4">Opción 4</option>
+                              <option value="5">Opción 5</option>
+                              <option value="6">Opción 6</option>
+                              <option value="7">Opción 7</option>
+                              <option value="8">Opción 8</option>
+                              <option value="9">Opción 9</option>
+                            </select>
+                    </div>
+                </div>
+                <br>
+                <p>Email:</p>
+                <div class='cb-input blueplace'>
+                    <input id='correo' name="correo" type='text' placeholder="Escribe tu correo electrónico" required />
+                </div>
+                <br>
+                <p>Teléfono:</p>
+                <div class='cb-input blueplace'>
+                    <input id='tel' name="tel" type='text' placeholder="Escribe tu teléfono" required />
+                </div>
+                <br>
+                <p>Comentarios:</p>
+                <div class='cb-input blueplace'>
+                    <input id='message-input' name="comentarios" type='text' placeholder="" required />
+                </div>
+                <br>
+                <button class="btn-big">Envíar</button>
+            </div>
+            <div class="col-sm-4 contacto-nos">
+               <br><br><br>
+               <ul>
+                    <h5 class="big-blue-mon">Dirección</h5>
+                    <li>Av. Aquiles Serdán 301 Pte. Int. 27, Col. Centro</li>
+                    <li>Los Mochis, Sinaloa.</li>
+                    <li>C.P. 81200</li>
+                </ul>
+                <ul>
+                    <li><img src="/img/vectores/tel-rosa.svg"> (668) 146 09 84</li>
+                    <a href="https://www.facebook.com/AutotransportesallAbordo/" target="blank"><li><img src="/img/vectores/fb-rosa.svg"> @AutotransportesAllAbordo</li></a>
+                    <a href="https://twitter.com/AbordoAll" target="blank"><li><img src="/img/vectores/tw-rosa.svg"> @AbordoAll</li></a>
+                    <a href="https://www.instagram.com/all.abordo/" target="blank"><li><img src="/img/vectores/ig-rosa.svg"> @all.Abordo</li></a>
+                </ul>
+                <a href="/solicitartarjeta.shtml"><img src="/img/solicitatutarjeta.jpg" class="img-responsive" style="margin: 0 50px;"></a>
+            </div>
+        </div>
+        <br>
+        <hr class="divider">
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-12">
+                <h1 class="big-pink">Ventas</h1>
+                <p style="font-size: 1.5em;">Si necesitas ayuda para reservar un boleto, llámanos o chatea con nosotros.</p>
+            </div>
+            <div class="col-sm-4  offset-sm-1 col-10 contacto-nos">
+               <br>
+                <ul>
+                    <li><img src="/img/vectores/tel-rosa.svg"> (668) 146 09 84</li>
+                    <li><img src="/img/vectores/mail-rosa.svg"> cotizaciones@allabordo.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    
+    
+    <!--#include virtual="/include/footer.htm"-->
+
+
+</body>
+
+</html>

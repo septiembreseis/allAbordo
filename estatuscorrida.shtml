@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <div class="container-fluid hero-rosa pad">
+        <div class="row">
+            <div class="col-sm-8">
+               <br><br><br>
+                <h1 class="big-white">Estatus de corrida</h1>
+            </div>
+            <div class="col-sm-4">
+                <img src="/img/cam-boleto.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+
+    <div class="container pad">
+        <div class="row">
+            <div class="col-sm-8 col-10 offset-1">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h5 class="big-gray">Número de autobus</h5>
+                        <h1 class="big-blue">AB-2112</h1>
+                        <br>
+                    </div>
+                    <div class="col-sm-6 col-6">
+                        <h5 class="big-gray">Origen:</h5>
+                        <h4 class="big-gray"><b>Los Mochis</b></h4>
+                    </div>
+                    <div class="col-sm-6 col-6">
+                        <h5 class="big-gray">Destino:</h5>
+                        <h4 class="big-gray"><b>Guadalajara</b></h4>
+                        <br>
+                    </div>
+                    <div class="col-sm-6 col-6">
+                        <h5 class="big-gray">Fecha de salida:</h5>
+                        <h5 class="big-gray">05/07/2018</h5>
+                    </div>
+                    <div class="col-sm-6 col-6">
+                        <h5 class="big-gray">Fecha programada:</h5>
+                        <h5 class="big-gray">06/07/2018</h5>
+                    </div>
+                    <div class="col-sm-6 col-6">
+                        <h5 class="big-gray">Hora de salida:</h5>
+                        <h5 class="big-gray">02:00</h5>
+                        <br>
+                    </div>
+                    <div class="col-sm-6 col-6">
+                        <h5 class="big-gray">Hora de llegada:</h5>
+                        <h5 class="big-gray">14:30</h5>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-10 offset-1">
+                <h5 class="big-gray">Status</h5>
+                <h1 class="big-green"><b>EN TIEMPO</b></h1>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h5 class="big-gray">Observaciones:</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <hr class="divider">
+    </div>
+
+    <div class="container">
+        <div class="row">
+           <div class="col-sm-12">
+               <h1 class="big-blue">Realizar otra búsqueda</h1>
+               <br>
+           </div>
+            <div class="col-sm-5">
+                <h5 class="big-gray">Origen</h5>
+                <select class="custom-select2">
+                    <option selected>Selecciona tu origen</option>
+                    <option><b>Sinaloa</b></option>
+                    <option value="lm">Los Mochis</option>
+                    <option value="gve">Guasave</option>
+                    <option value="gmchil">Guamuchil</option>
+                    <option value="cul">Culiacán</option>
+                    <option value="maz">Mazatlán</option>
+                    <option><b>Nayarit</b></option>
+                    <option value="tepic">Tepic</option>
+                </select>
+                <h5 class="big-gray">Destino</h5>
+                <select class="custom-select2">
+                    <option selected>Selecciona tu destino</option>
+                    <option><b>Sinaloa</b></option>
+                    <option value="lm">Los Mochis</option>
+                    <option value="gve">Guasave</option>
+                    <option value="gmchil">Guamuchil</option>
+                    <option value="cul">Culiacán</option>
+                    <option value="maz">Mazatlán</option>
+                    <option><b>Nayarit</b></option>
+                    <option value="tepic">Tepic</option>
+                  </select>
+            </div>
+            <div class="col-sm-3">
+                <h6 class="big-gray">Fecha de salida</h6>
+                <input autocomplete="off" class="datepicker custom-select3" placeholder="Elige tu fecha de salida" />
+                <a href="/horarios.shtml"><button class="btn-med" style="margin-top: 35px;">Consultar Salidas</button></a>
+            </div>
+            <div class="col-sm-4">
+               <br>
+                <a href="/solicitartarjeta.shtml"><img src="/img/solicitatutarjeta.jpg" class="img-responsive"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--#include virtual="/include/footer.htm"-->
+
+
+</body>
+
+</html>

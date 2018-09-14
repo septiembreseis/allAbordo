@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="envio, envios, paqueteria, paquetes, cotiza tu envio, cotizar envio, mensajeria, entrega ocurre, convenio empresas, convenio para empresas, convenio para empresas paqueteria, envios por cobrar, guias prepagadas, guias pre-pagadas, envio seguro, envio mexico, envío méxico, méxico">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link href="/css/tooltip3.css" rel="stylesheet" type="text/css">
+    <link href="/css/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <div class="container-fluid hero-rosa-paq pad">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="big-white">Cotiza tu envío</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pad">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="/img/resumen-caja.jpg" class="img-responsive">
+                <br><br><br><br><br>
+                <p>*El importe estimado se confirmará al momento de la recepción del paquete por personal de All Abordo.</p>
+            </div>
+            <div class="col-sm-2">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p style="margin-bottom: 8px;">50cm</p>
+                    </div>
+                    <div class="col-sm-12">
+                        <p>15cm</p>
+                    </div>
+                    <div class="col-sm-12">
+                        <p style="margin-top: -12px;">20cm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h3 class="big-blue">Resumen</h3>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h5 class="big-gray">Origen</h5>
+                        <h6 class="big-blue">Los Mochis</h6>
+                        <br>
+                        <h5 class="big-gray">Destino</h5>
+                        <h6 class="big-blue">Guasave</h6>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h5 class="big-gray">Tipo de paquete:</h5>
+                                <p>Carga general</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <h5 class="big-gray">Peso(KG):</h5>
+                                <p>2 KG</p>
+                            </div>
+                            <div class="col-sm-12">
+                                <h5 class="big-gray">Valor declarado:</h5>
+                                <p>$50.67</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <h4 class="big-gray">Total aproximado:</h4>
+                        <h3 class="big-blue">*$200.67</h3>
+                    </div>
+                </div>
+                <br>
+                <button class="btn-med">Imprimir cotización <i class="fas fa-print"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <hr class="divider">
+            </div>
+        </div>
+    </div>   
+        <div class="container lista-gris pad">
+            <div class="row">
+               <div class="col-sm-8">
+                    <div class="row rastrear">
+                        <div class="col-sm-10">
+                            <h2>Rastrea tu paquete</h2>
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="/img/vectores/rast-paq.svg" class="img-responsive">
+                        </div>
+                        <div class="col-sm-8">
+                            <div class='cb-input'>
+                                <input id='rastrear' name="rastrear" type='text' placeholder="Ingresa el folio de rastreo de tu paquete." style="background-color: rgba(255, 255, 255, 0.2); height: 50px; border: 1px solid transparent;" required />
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="/rastreo.shtml"><button class="btn-med">Rastrear Paquete</button></a>
+                        </div>
+                   </div>
+               </div>
+               <div class="col-sm-4 text-center no-transportable">
+                   <h3>Mercancías no<br>transportables</h3>
+                   <br>
+                   <h4>Conoce los artículos que no podemos transportar por disposiciones de la Ley.</h4>
+                   <br>
+                   <a href="/restriccionesenvio.shtml"><button class="btn-med-rosa">Conocer más</button></a>
+               </div>
+            </div>
+        </div>
+
+    <!--#include virtual="/include/footer.htm"-->
+
+</body>
+
+</html>

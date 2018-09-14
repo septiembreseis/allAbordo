@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link href="/css/radio.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+    
+    <div class="container pad">
+        <div class="row">
+            <div class="col-sm-6  offset-sm-3 col-12 text-center">
+               <br><br><br>
+                <h4 class="big-blue">¡Gracias por tu compra!</h4>
+                <h5 class="big-gray">Tu número de reservación:</h5>
+                <h2 class="big-pink-op">CC01-12456-LMM</h2>
+                <br>
+                <button class="btn-big">Ver detalles de compra</button>
+                <br>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <!--#include virtual="/include/footer.htm"-->
+
+
+</body>
+
+</html>

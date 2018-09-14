@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Transporte" transform="translate(-700.000000, -1396.000000)" fill="#FFFFFF">
+            <g id="rastrear-paquete-copy" transform="translate(687.000000, 1158.000000)">
+                <path d="M17,253 L24,253 L24,251 L17,251 L17,253 Z M15,256 L29,256 L29,245 L15,245 L15,256 Z M29,240 L28,240 L28,238 L26,238 L26,240 L18,240 L18,238 L16,238 L16,240 L15,240 C13.89,240 13.01,240.9 13.01,242 L13,256 C13,257.1 13.89,258 15,258 L29,258 C30.1,258 31,257.1 31,256 L31,242 C31,240.9 30.1,240 29,240 Z M17,249 L27,249 L27,247 L17,247 L17,249 Z" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

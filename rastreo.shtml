@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link href="/css/progress.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <div class="container-fluid hero-rosa-paq pad">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="big-white">Rastreo de paquete</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pad">
+        <div class="row">
+          <div class="col-sm-8 col-12">
+              <h5 class="big-gray">Folio del paquete</h5>
+                        <h1 class="big-blue">79URAD85A12811</h1>
+                        <br>
+          </div>
+          <div class="col-sm-4 col-12">
+              <h5 class="big-gray">Status</h5>
+                <h2 class="big-blue">En ruta hacia destino</h2>
+                <br>
+          </div>
+           <div class="col-sm-12 text-center">
+               <div class="wrapper">
+                  <div class="margin-area">
+                    <div class="dot one">1</div>
+                    <div class="dot two">2</div>
+                    <div class="dot three">3</div>
+                    <div class="dot four">4</div>
+                    <div class="progress-bar first"></div>
+                    <div class="progress-bar second"></div>
+                    <div class="progress-bar third"></div>
+                    <div class="message message-1">
+                     En recepción para envío
+                        <div>
+                            <div class="message message-2">En ruta hacia destino</div>
+                            <div class="message message-3">Por entregar</div>
+                            <div class="message message-4">Entregado</div>
+
+                        </div>
+                    </div>
+                      </div>
+                    </div>
+           </div>
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5 class="big-gray">Origen:</h5>
+                        <h4 class="big-gray"><b>Los Mochis</b></h4>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5 class="big-gray">Destino:</h5>
+                        <h4 class="big-gray"><b>Guadalajara</b></h4>
+                        <br>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5 class="big-gray">Fecha de salida:</h5>
+                        <h5 class="big-gray">05/07/2018</h5>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5 class="big-gray">Fecha programada:</h5>
+                        <h5 class="big-gray">06/07/2018</h5>
+                    </div>
+                    <div class="col-sm-12">
+                        <h5 class="big-gray">Hora de salida:</h5>
+                        <h5 class="big-gray">02:00</h5>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h5 class="big-gray">Ubicación:</h5>
+                        <h6 class="big-gray">El tránsito entre</h6>
+                        <h4 class="big-gray"><b>Nayarit y Mazatlán</b></h4>
+                        <h5 class="big-gray">Última actualización:</h5>
+                        <h5 class="big-gray">06/07/2018 03:40 am</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <button class="btn-historial" id="historial" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Ver historial</button>
+                <div class="collapse" id="collapseExample">
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-2 col-2">
+                            <h5 class="big-blue">Fecha</h5>
+                        </div>
+                        <div class="col-sm-2 col-2">
+                            <h5 class="big-blue">Hora</h5>
+                        </div>
+                        <div class="col-sm-4 col-4">
+                            <h5 class="big-blue">Ubicación</h5>
+                        </div>
+                        <div class="col-sm-4 col-4">
+                            <h5 class="big-blue">Status</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2 col-2">
+                            <h5 class="big-gray">06/07/2018</h5>
+                        </div>
+                        <div class="col-sm-2 col-2">
+                            <h5 class="big-gray">3:30 pm</h5>
+                        </div>
+                        <div class="col-sm-4 col-4">
+                            <h5 class="big-gray">Centro Operativo All Abordo Los Mochis, Sin.</h5>
+                        </div>
+                        <div class="col-sm-4 col-4">
+                            <h5 class="big-gray">En recepción</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2 col-2">
+                            <h5 class="big-gray">07/07/2018</h5>
+                        </div>
+                        <div class="col-sm-2 col-2">
+                            <h5 class="big-gray">2:51 pm</h5>
+                        </div>
+                        <div class="col-sm-4 col-4">
+                            <h5 class="big-gray">Centro Operativo All Abordo Culiacán, Sin.</h5>
+                        </div>
+                        <div class="col-sm-4 col-4">
+                            <h5 class="big-gray">En ruta con mensajero</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2 col-2">
+                            <h5 class="big-gray">07/07/2018</h5>
+                        </div>
+                        <div class="col-sm-2 col-2">
+                            <h5 class="big-gray">6:23 pm</h5>
+                        </div>
+                        <div class="col-sm-4 col-4">
+                            <h5 class="big-gray">Centro Operativo All Abordo Culiacán, Sin.</h5>
+                        </div>
+                        <div class="col-sm-4 col-4">
+                            <h5 class="big-gray">Entregado</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <hr class="divider">
+    </div>
+
+    <div class="container">
+        <div class="row rastrear">
+            <div class="col-sm-10 col-10">
+                <h2>Rastrea otro paquete</h2>
+            </div>
+            <div class="col-sm-2 col-2">
+                <img src="/img/vectores/rast-paq.svg" class="img-responsive">
+            </div>
+            <div class="col-sm-9 col-12">
+                <div class='cb-input'>
+                    <input id='rastrear' name="rastrear" type='text' placeholder="Ingresa el folio de rastreo de tu paquete." style="background-color: rgba(255, 255, 255, 0.2); height: 50px; border: 1px solid transparent;" required />
+                </div>
+            </div>
+            <div class="col-sm-3 col-12">
+                <a href="/rastreo.shtml"><button class="btn-med">Rastrear Paquete</button></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--#include virtual="/include/footer.htm"-->
+    
+    <script>
+        var bodyObj, className, index;
+
+        bodyObj = document.getElementById('historial');
+        index = 1;
+        className = [
+            'btn-historial',
+            'btn-historial2'
+        ];
+
+        function updateIndex(){
+            if(index === 0){
+                index = 1;
+            }else{
+                index = 0;
+            }
+        }
+
+        bodyObj.onclick = function(e){
+            e.currentTarget.className = className[index];
+            updateIndex();
+        }
+    </script>
+
+
+</body>
+
+</html>

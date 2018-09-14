@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <div class="container-fluid hero-rosa pad">
+        <div class="row">
+            <div class="col-sm-10">
+                <h1 class="big-white">Políticas de viaje</h1>
+            </div>
+            <div class="col-sm-2">
+                <img src="/img/vectores/camionbig.svg">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid desc-politicas">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+            <h2>En All Abordo nos preocupamos por mejorar día con día la experiencia de viaje, por lo que aquí encontrarás toda la información relacionada a nuestros pasajeros.</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row politicas-viaje">
+            <div class="col-sm-6" style="border-left: 1px solid transparent; border-top:1px solid transparent;">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="/img/vectores/adultos.svg" class="img-responsive">
+                    </div>
+                    <div class="col-sm-8">
+                       <br><br>
+                        <h1 class="big-gray-mon">Adultos</h1>
+                        <span class="lil-blue">Información de viaje para adultos</span>
+                    </div>
+                    <div class="col-sm-12">
+                       <br>
+                        <p>Se considera pasajeros adultos a aquellos mayores a 18 años; los menores a 17 años de edad que viajen solos pueden estar sujetos a pagar un cargo por menor sin acompañante.</p>
+                        <p>Para los pasajeros que requieran asistencia especial les ofrecemos una amplia variedad de servicios como sillas de ruedas, entre otros.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6" style="border-right: 1px solid transparent; border-top:1px solid transparent;">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="/img/vectores/ninos.svg" class="img-responsive">
+                    </div>
+                    <div class="col-sm-8">
+                       <br><br>
+                        <h1 class="big-gray-mon">Niños</h1>
+                        <span class="lil-blue">Menores sin acompañante</span>
+                    </div>
+                    <div class="col-sm-12">
+                       <br>
+                        <p>Nuestro servicio de menor sin acompañante está disponible para niños entre los cinco y 13 años con 11 meses de edad. Únicamente en viajes de Grupo All Abordo ya sea directo o en conexión.</p>
+                        <p>Niños menores a cinco años no serán aceptados como menores sin acompañante. Todos los niños que viajen en esta modalidad deberán presentar una forma de menor sin acompañante.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pad">
+            <div class="col-sm-8 offset-sm-2">
+                <h1 class="big-blue-mon">Notas adicionales</h1>
+                <br>
+                <p>Muy importante:</p>
+                <p><img src="/img/vectores/palomita.svg"> Ningún niño podrá ser responsable de otro niño; los responsables deben tener mínimo 18 años o comprueben ser el padre o tutor.</p>
+                <br>
+                <p><img src="/img/vectores/palomita.svg"> El servicio de menor sin acompañar requiere una confirmación previa a través de Servicio Al Cliente 48 horas antes de la salida del autobus. Una vez que se a confirmado el servicio en el viaje se deberá proceder al cobro, si el Servicio Al Cliente no confirma el servicio, éste no deberá de cobrarse.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <!--#include virtual="/include/footer.htm"-->
+
+
+</body>
+
+</html>

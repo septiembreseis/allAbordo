@@ -1,0 +1,80 @@
+.step-wrapper {
+  padding: 20px 0;
+  display: none;
+}
+.step-wrapper.active {
+  display: block;
+}
+
+.step-indicator {
+  border-collapse: separate;
+  display: table;
+  margin-left: 0px;
+  position: relative;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 0;
+  padding-top: 20px;
+}
+.step-indicator li {
+  display: table-cell;
+  position: relative;
+  float: none;
+  padding: 0;
+  width: 1%;
+}
+.step-indicator li:after {
+  background-color: #D01D56;
+  content: "";
+  display: block;
+  height: 10px;
+  position: absolute;
+  width: 100%;
+  top: 32px;
+    transition: all 0.3s ease-in-out;
+}
+.step-indicator li:after {
+  left: 50%;
+}
+.step-indicator li:last-child:after {
+  display: none;
+}
+.step-indicator li.active .step {
+  color: #fff;
+}
+.step-indicator li.active .caption {
+  color: #27387E;
+}
+.step-indicator li.complete:after {
+  background-color: #27387E;
+}
+.step-indicator li.complete .step {
+  background-color: #27387E;
+  border: 1px solid #27387E;
+  color: #fff;
+}
+.step-indicator li.complete .caption {
+  color: #87D37C;
+}
+.step-indicator .step {
+  background-color: #D01D56;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  color: #fff;
+  font-size: 24px;
+  height: 64px;
+  line-height: 64px;
+  margin: 0 auto;
+  position: relative;
+  width: 64px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+.step-indicator .step:hover {
+  cursor: pointer;
+}
+.step-indicator .caption {
+  color: #737277;
+  padding: 11px 16px;
+}

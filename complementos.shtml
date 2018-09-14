@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="comprar boletos, autobus, comodidad, conductor certificado, seguro de pasajeros, puntualidad, viaje redondo, viaje sencillo, viaja por mexico, viaja por méxico, autobus sinaloa, camion, pasajeros, wifi, baños, el placer de viajar">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs2.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms2.css" rel="stylesheet" type="text/css">
+    <link href="/css/cards.css" rel="stylesheet" type="text/css">
+    <link href="/css/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <div class="container-fluid hero-rosa pad">
+        <div class="row">
+           <div class="col-sm-5">
+              <br><br>
+               <h1 class="big-white-op"> Complemente su viaje</h1>
+           </div>
+            <div class="col-sm-2 detalle">
+                <br>
+                <h5 class="big-blue">Pasajeros</h5>
+                <p>2 pasajeros</p>
+            </div>
+            <div class="col-sm-2 detalle">
+                <br>
+                <h5 class="big-blue">Tipo de viaje</h5>
+                <p>Sencillo</p>
+            </div>
+            <div class="col-sm-2 detalle">
+                <br>
+                <h5 class="big-blue">Recorrido</h5>
+                <p>Central - Los Mochis <i class="fas fa-arrow-circle-right"></i> Central - Culiacán</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pad">
+        <div class="row">
+            <div class="col-sm-12">
+                <section id="complementos">
+                    <h3 class="big-blue">Viaje más tranquilo por un costo extra</h3>
+                    <h5 class="big-gray">¿Desea agregar más peso a su viaje? ¿Le gustaría viajar con su mascota? Elija entre las diversas opciones que ofrecemos para usted</h5>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4 mt-4">
+                            <div class="card profile-card-5">
+                                <div class="card-img-block">
+                                    <img class="card-img-top" src="/img/maletadocumentada.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body pt-0">
+                                <h5 class="big-pink">Maleta documentada</h5>
+                                <h6 class="big-blue">$200</h6>
+                                <p>Puede llevar hasta 25 kilos.</p>
+                                <button class="btn-med">Añadir</button>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-4">
+                            <div class="card profile-card-5">
+                                <div class="card-img-block">
+                                    <img class="card-img-top" src="/img/mascotasabordo.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body pt-0">
+                                <h5 class="big-pink">Mascotas a bordo</h5>
+                                <h6 class="big-blue">$350</h6>
+                                <p>¡No las dejes en casa! Llévalas contigo siempre.</p>
+                                <button class="btn-med">Añadir</button>
+                              </div>
+                            </div>
+                        </div>
+    	            </div>
+                    <div class="col-sm-12 text-right" style="margin-left: 35px;">
+                       <br><br>
+                        <a href="/escogerasiento.shtml"><button class="btn-med-rosa"><i class="fas fa-arrow-left"></i> Regresar</button></a> <a href="/realizarpago.shtml"><button class="btn-med-rosa">Realizar pago <i class="fas fa-arrow-right"></i></button></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--#include virtual="/include/footer.htm"-->
+
+</body>
+
+</html>

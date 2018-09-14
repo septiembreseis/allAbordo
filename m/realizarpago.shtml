@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="comprar boletos, autobus, comodidad, conductor certificado, seguro de pasajeros, puntualidad, viaje redondo, viaje sencillo, viaja por mexico, viaja por méxico, autobus sinaloa, camion, pasajeros, wifi, baños, el placer de viajar">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs2.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms2.css" rel="stylesheet" type="text/css">
+    <link href="/css/tooltip.css" rel="stylesheet" type="text/css">
+    <link href="/css/tooltip2.css" rel="stylesheet" type="text/css">
+    <link href="/css/radio.css" rel="stylesheet" type="text/css">
+    <link href="/css/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <div class="container-fluid hero-rosa pad">
+        <div class="row">
+           <div class="col-sm-3">
+              <br><br>
+               <h1 class="big-white-op">Realice su pago</h1>
+           </div>
+            <div class="col-sm-2 detalle">
+                <br>
+                <h5 class="big-blue">Pasajeros</h5>
+                <p>2 pasajeros</p>
+            </div>
+            <div class="col-sm-2 detalle">
+                <br>
+                <h5 class="big-blue">Tipo de viaje</h5>
+                <p>Sencillo</p>
+            </div>
+            <div class="col-sm-2 detalle">
+                <br>
+                <h5 class="big-blue">Recorrido</h5>
+                <p>Central - Los Mochis <i class="fas fa-arrow-circle-right"></i> Central - Culiacán</p>
+            </div>
+            <div class="col-sm-2 detalle">
+                <br>
+                <h5 class="big-blue">Costo del viaje</h5>
+                <p>$608.00</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pad">
+        <div class="row">
+            <div class="col-12">
+                <section id="pago">
+                    <h3 class="big-blue">Finaliza tu compra</h3>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                           <p>* Forma de pago:</p>
+                            <div class="row">
+                                <div class="col-12" style="padding-bottom: 20px;">
+                                <input type="radio" name="yesno" id="yes1Check" /><label class="custom-control-label" for="yes1Check"><img src="/img/vectores/paypal.svg" class="img-responsive"></label>
+                                </div>
+                                <div class="col-12" style="padding-bottom: 20px;">
+                                <input type="radio" name="yesno" id="yes2Check" /><label class="custom-control-label" for="yes2Check"><img src="/img/vectores/Visa.svg" class="img-responsive"></label> 
+                                </div>
+                                <div class="col-12" style="padding-bottom: 20px;">
+                                <input type="radio" name="yesno" id="yes3Check" /><label class="custom-control-label" for="yes3Check"><img src="/img/vectores/MasterCard.svg" class="img-responsive" style="width: 100%"></label>
+                                </div>
+                                <div class="col-12" style="padding-bottom: 20px;">
+                                <input type="radio" name="yesno" id="yes4Check" /><label class="custom-control-label" for="yes4Check"><img src="/img/vectores/AmericanExpress.svg" class="img-responsive"></label>
+                                </div>
+                            </div>
+                            <br>
+                            <p>* Nombre(s) del cliente principal:</p>
+                            <div class='cb-input blueplace'>
+                                <input id='nombre' name="nombre" type='text' placeholder="Escribe tu(s) nombre(s)" required />
+                            </div>
+                            <br>
+                            <p>* Apellidos del cliente principal:</p>
+                            <div class='cb-input blueplace'>
+                                <input id='nombre' name="nombre" type='text' placeholder="Escribe tus apellidos" required />
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p>* Email:</p>
+                                    <div class='cb-input blueplace'>
+                                        <input id='correo' name="correo" type='text' placeholder="Escribe tu correo electrónico" required />
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>* Confirmar email:</p>
+                                    <div class='cb-input blueplace'>
+                                        <input id='correo' name="correo" type='text' placeholder="Confirma tu correo electrónico" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <p>* Teléfono:</p>
+                            <div class='cb-input blueplace'>
+                                <input id='nombre' name="nombre" type='text' placeholder="Escribe tu teléfono" required />
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-sm-5 offset-sm-1">
+                           <h4 class="big-gray">Datos de tarjeta</h4>
+                            <div class="row">
+                                <div class="col-6">
+                                   <br>
+                                    <p>* Número de tarjeta</p>
+                                    <div class='cb-input blueplace'>
+                                        <input id='nombre' name="nombre" type='text' placeholder="" required />
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <p>* Código de seguridad (CVS):</p>
+                                    <div class='cb-input blueplace'>
+                                        <input id='nombre' name="nombre" type='text' placeholder="" required />
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                   <br>
+                                    <p>* Fecha de expiración</p>
+                                    <select class="custom-select est-cd">
+                                      <option selected value="1">01</option>
+                                      <option value="2">02</option>
+                                      <option value="3">03</option>
+                                      <option value="4">04</option>
+                                      <option value="5">05</option>
+                                      <option value="6">06</option>
+                                      <option value="7">07</option>
+                                      <option value="8">08</option>
+                                      <option value="9">09</option>
+                                      <option value="">10</option>
+                                      <option value="">11</option>
+                                      <option value="">12</option>
+                                      <option value="">13</option>
+                                      <option value="">14</option>
+                                      <option value="">15</option>
+                                      <option value="">16</option>
+                                      <option value="">17</option>
+                                      <option value="">18</option>
+                                      <option value="">19</option>
+                                      <option value="">20</option>
+                                      <option value="">21</option>
+                                      <option value="">22</option>
+                                      <option value="">23</option>
+                                      <option value="">24</option>
+                                      <option value="">25</option>
+                                      <option value="">26</option>
+                                      <option value="">27</option>
+                                      <option value="">28</option>
+                                      <option value="">29</option>
+                                      <option value="">30</option>
+                                      <option value="">31</option>
+                                    </select>
+                                </div>
+                                <div class="col-6">
+                                    <select class="custom-select est-cd" style="margin-top: 65px;">
+                                      <option selected value="1">18</option>
+                                      <option value="">19</option>
+                                      <option value="">20</option>
+                                      <option value="">21</option>
+                                      <option value="">22</option>
+                                      <option value="">23</option>
+                                      <option value="">24</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                   <br>
+                                    <p>* Campos obligatorios</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <a href="/m/datospasajeros.shtml"><button class="btn-med-rosa"><i class="fas fa-arrow-left"></i> Regresar</button></a> <a href="/graciascompra.shtml"><button class="btn-med-rosa" style="font-size: 12px;">Finalizar compra <i class="fas fa-check-circle"></i></button></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--#include virtual="/include/footer.htm"-->
+
+</body>
+
+</html>

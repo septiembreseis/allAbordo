@@ -1,0 +1,76 @@
+.wrapper {
+  width: 100%;
+  height: 160px; }
+
+.margin-area {
+  position: relative;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #737277;
+  margin: 0 20px; }
+
+.dot {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background: #D5D5D5;
+  border-radius: 50%;
+  top: 10px;
+  color: #737277;
+  line-height: 30px;
+  z-index: 9999; }
+  .dot.one {
+    left: 85px;
+    background: #27387E;
+    color: #fff; }
+  .dot.two {
+    left: 380px;
+    background: #27387E;
+    color: #fff; }
+  .dot.three {
+    left: 678px; }
+  .dot.four {
+    left: 970px; }
+
+.progress-bar {
+  position: absolute;
+  height: 10px;
+  width: 25%;
+  top: 20px;
+  left: 10%;
+  background: #D5D5D5; }
+  .progress-bar.first {
+    background: #27387E; }
+  .progress-bar.second {
+    left: 37%; }
+  .progress-bar.third {
+    left: 64%; }
+
+.message {
+  position: absolute;
+  height: 60px;
+  width: 170px;
+  padding: 10px;
+  margin: 0;
+  left: -8px;
+  top: 0; }
+  .message.message-1 {
+    top: 40px; }
+  .message.message-2 {
+    left: 310px; }
+  .message.message-3 {
+    left: 615px; }
+  .message.message-4 {
+    left: 910px; }
+
+.status {
+  position: absolute;
+  width: 700px;
+  left: -600px;
+  text-align: center;
+  padding: 20px;
+  color: black; }
+  .status.code {
+    top: 70px; }

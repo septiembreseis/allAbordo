@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link href="/css/radio.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <div class="container-fluid hero-rosa pad">
+        <div class="row">
+            <div class="col-sm-10">
+                <h1 class="big-white">Tu factura</h1>
+            </div>
+            <div class="col-sm-2">
+                <img src="/img/vectores/tufactura.svg" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container pad">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+               <br><br><br>
+                <h4 class="big-blue">Tu factura ha sido enviada con éxito al correo:</h4>
+                <h2 class="big-gray">nombre@dominio.com</h2>
+                <br>
+                <button class="btn-med-rosa">Descargar pdf</button>
+                <button class="btn-med-rosa">Descargar xml</button><br>
+                <a href="/solicitarfactura.shtml"><button class="btn-med">Generar otra factura</button></a>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <!--#include virtual="/include/footer.htm"-->
+
+
+</body>
+
+</html>

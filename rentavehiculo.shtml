@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="renta vehiculo, renta de vehiculo, renta de van, van, excursion, excursiones, viajes vacacionales, vacaciones, viajes empresariales, empresas, transportacion de personal, viajes escolares, escuelas, viaje redondo, viaja por mexico, viaja por méxico, elige tu destino">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link href="/css/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link href="/css/radio.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <div class="container-fluid hero-rosa pad">
+        <div class="row">
+            <div class="col-sm-8">
+                <br><br><br>
+                <h1 class="big-white">Renta un vehículo</h1>
+            </div>
+            <div class="col-sm-4">
+                <img src="/img/van01.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+
+    <div class="container pad">
+        <div class="row">
+            <div class="col-sm-6">
+                <h5 class="big-gray">Origen</h5>
+                <select class="custom-select2" id='origenvan'>
+                    <option selected>Selecciona tu origen</option>
+                    <option><b>Sinaloa</b></option>
+                    <option value="lm">Los Mochis</option>
+                    <option value="gve">Guasave</option>
+                    <option value="gmchil">Guamuchil</option>
+                    <option value="cul">Culiacán</option>
+                    <option value="maz">Mazatlán</option>
+                    <option><b>Nayarit</b></option>
+                    <option value="tepic">Tepic</option>
+                </select>
+                <h5 class="big-gray">Destino</h5>
+                <select class="custom-select2" id="destinovan">
+                    <option selected>Selecciona tu destino</option>
+                    <option><b>Sinaloa</b></option>
+                    <option value="lm">Los Mochis</option>
+                    <option value="gve">Guasave</option>
+                    <option value="gmchil">Guamuchil</option>
+                    <option value="cul">Culiacán</option>
+                    <option value="maz">Mazatlán</option>
+                    <option><b>Nayarit</b></option>
+                    <option value="tepic">Tepic</option>
+                    <option><b>Estados Unidos</b></option>
+                    <option value="sanfrancisco">San Francisco</option>
+                </select>
+                <div class="seguro" id="sanfrancisco" style="display: none;">
+                    <p class="label">*Se incluye costo adicional de seguro vehicular.</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h6 class="big-gray">Pasajeros</h6>
+                        <select class="custom-select">
+                            <option selected>Pasajeros</option>
+                            <option value="1">1 a 5</option>
+                            <option value="2">5 a 10</option>
+                            <option value="3">10 a 15</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h6 class="big-gray">Fecha de salida</h6>
+                        <input autocomplete="off" class="datepicker custom-select3" placeholder="Elige tu fecha de salida" />
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="big-gray">Fecha de regreso</h6>
+                        <input autocomplete="off" class="datepicker custom-select3" placeholder="Elige tu fecha de regreso" />
+                    </div>
+                    <div class="col-sm-12">
+                    <br>
+                    <input type="checkbox" id="checkbox2" /><label for="checkbox2"><h6 class="big-gray" style="padding-bottom: 5px;">¿Incluír chofer?</h6></label>
+                    <br>
+                    <img src="https://via.placeholder.com/300x100">
+                    <p class="label">Aquí va un captcha</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <br>
+                <p>Traza tu ruta <a class="rosa-sub" href="">con esta herramienta.</a></p>
+            </div>
+            <div class="col-sm-6">
+                <a href="/cotizarvan.shtml"><button class="btn-big">Cotizar viaje</button></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <hr class="divider">
+    </div>
+
+    <div class="container pad text-center pagos">
+        <div class="row">
+            <div class="col-sm-2 offset-md-1">
+                <h6>Compra segura <i class="fas fa-lock"></i></h6>
+            </div>
+            <div class="col-sm-2 col-3"><img src="/img/vectores/paypal.svg" class="img-responsive"></div>
+            <div class="col-sm-2 col-3"><img src="/img/vectores/Visa.svg" class="img-responsive"></div>
+            <div class="col-sm-2 col-3"><img src="/img/vectores/MasterCard.svg" class="img-responsive"></div>
+            <div class="col-sm-2 col-3"><img src="img/vectores/AmericanExpress.svg" class="img-responsive"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid van-fondo">
+        <div class="container lista-gris pad">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 class="big-blue-mon">¡Te llevamos a donde quieras!</h1>
+                <h4 class="big-gray">Vehículos tipo VAN, los cuales han sido minuciosamente equipados para brindar la seguridad y comodidad más completa del mercado, en los que podrá realizar cualquier tipo de viaje, tales como:</h4>
+                <br>
+                <ul>
+                    <li>Excursiones</li>
+                    <li>Viajes Vacacionales</li>
+                    <li>Viajes Empresariales</li>
+                    <li>Transportación de Personal</li>
+                    <li>Viajes Escolares</li>
+                    <li>Entre Otros...</li>
+                </ul>
+                <br>
+            </div>
+            <div class="col-sm-5 offset-sm-1">
+            </div>
+            <div class="col-sm-4">
+               <br><br><br><br><br><br>
+                <img src="/img/van06.png">
+            </div>
+            <div class="col-sm-7 offset-sm-1">
+               <br><br><br><br><br><br>
+                <hr class="divider">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h4 class="big-blue">Conoce más sobre nuestra flotilla de vehículos</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <button class="btn-med" data-toggle="modal" data-target="#exampleModalCenter">Conocer Flotilla</button>
+                    </div>
+                </div>
+                <hr class="divider">
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+    </div>
+    
+    <!-- MODAL FLOTILLA -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Flotilla All Abordo</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FAutotransportesallAbordo%2Fvideos%2F240009776796176%2F&show_text=0&width=560" width="100%" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-med-rosa" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIN MODAL FLOTILLA -->
+    
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-12 text-left">
+                <h1 class="big-blue-mon">Servicios Abordo:</h1>
+                <br>
+            </div>
+            <div class="col-sm-3">
+                <img src="/img/vectores/serv1.svg" class="altura img-responsive">
+                <h4 class="big-gray">Sensores de proximidad</h4>  
+            </div>
+            <div class="col-sm-3">
+                <img src="/img/vectores/serv2.svg" class="altura img-responsive">
+                <h4 class="big-gray">Cámara de reversa</h4>
+            </div>
+            <div class="col-sm-3">
+                <img src="/img/vectores/serv3.svg" class="altura img-responsive">
+                <h4 class="big-gray">Luz individual para lectura</h4>
+            </div>
+            <div class="col-sm-3">
+                <img src="/img/vectores/serv4.svg" class="altura img-responsive">
+                <h4 class="big-gray">Asientos personalizados y reclinables</h4> 
+            </div>
+            <div class="col-sm-3"> 
+                <img src="/img/vectores/serv5.svg" class="altura img-responsive">
+                <h4 class="big-gray">Cargadores USB en todas las filas de asientos</h4>
+            </div>
+            <div class="col-sm-3">
+                <img src="/img/vectores/serv6.svg" class="altura img-responsive">
+                <h4 class="big-gray">Pantalla de 32"</h4>
+            </div>
+            <div class="col-sm-3">
+                <img src="/img/vectores/serv7.svg" class="altura img-responsive">
+                <h4 class="big-gray">Altavoces para sonido</h4>
+            </div>
+            <div class="col-sm-3">
+                <img src="/img/vectores/serv8.svg" class="altura img-responsive">
+                <h4 class="big-gray">Póliza de seguro vehicular y de pasajeros</h4>
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="/include/footer.htm"-->
+
+</body>
+
+</html>

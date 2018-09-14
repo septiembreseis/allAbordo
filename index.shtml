@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs2.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms2.css" rel="stylesheet" type="text/css">
+    <link href="/css/tooltip.css" rel="stylesheet" type="text/css">
+    <link href="/css/radio.css" rel="stylesheet" type="text/css">
+    <link href="/css/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <!-- slider -->
+    <div id="carouselExampleControls" class="carousel slide containfer-fluid" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active item1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 offset-sm-8 col-10 offset-2">
+                            <br><br><br><br>
+                            <h6 class="big-white-op">¡Arma tu viaje perfecto! Conoce nuestros</h6>
+                            <h1 class="big-white-op">Autobúses</h1>
+                            <br>
+                            <a href="/compraboleto.shtml"><button class="btn-med">Conoce más</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item item2">
+                <div class="col-sm-7 offset-sm-5 col-7 offset-4">
+                    <br><br><br><br><br>
+                    <h6 class="big-white-op">¡Haz llegar momentos especiales a los que más te importan!</h6>
+                    <h1 class="big-white-op">Paquetería</h1>
+                    <br>
+                    <a href="/cotizarenvio.shtml"><button class="btn-med">Conoce más</button></a>
+                </div>
+            </div>
+            <div class="carousel-item item3">
+                <div class="col-sm-7 offset-sm-5 col-7 offset-4">
+                    <br><br><br><br>
+                    <h6 class="big-white-op">¡Haz tu viaje realidad con nosotros!</h6>
+                    <h1 class="big-white-op">Renta de vehículos</h1>
+                    <br>
+                    <a href="/rentavehiculo.shtml"><button class="btn-med">Conoce más</button></a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <img src="/img/vectores/flecha-izq.svg" class="img-responsive">
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <img src="/img/vectores/flecha-der.svg" class="img-responsive">
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container pestanas-index pad">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="nav nav-tabs" id="opciones" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="boleto-tab" data-toggle="tab" href="#boleto" role="tab" aria-controls="home" aria-selected="true"><img src="/img/vectores/bus-boleto.svg" class="img-responsive"> Compra tu boleto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="viaje-tab" data-toggle="tab" href="#viaje" role="tab" aria-controls="profile" aria-selected="false"><img src="/img/vectores/carro-viaje.svg" class="img-responsive"> Renta un vehículo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="paquete-tab" data-toggle="tab" href="#paquete" role="tab" aria-controls="contact" aria-selected="false"><img src="/img/vectores/envia-paq.svg" class="img-responsive"> Cotiza tu envío</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="opcionesContent">
+                    <!--       ------>
+                    <div class="tab-pane fade show active" id="boleto" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-12">
+                                    <p class="label">Tipo de viaje</p>
+                                    <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="noCheck" checked>
+                                    <label class="custom-control-label" for="noCheck" style="padding-right: 20px;"><p>Viaje sencillo</p></label>
+                                    <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="yesCheck">
+                                    <label class="custom-control-label" for="yesCheck"><p>Viaje redondo</p></label>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h5 class="big-gray">Origen</h5>
+                                    <select class="custom-select2">
+                                        <option selected>Selecciona tu origen</option>
+                                        <option><b>Sinaloa</b></option>
+                                        <option value="lm">Los Mochis</option>
+                                        <option value="gve">Guasave</option>
+                                        <option value="gmchil">Guamuchil</option>
+                                        <option value="cul">Culiacán</option>
+                                        <option value="maz">Mazatlán</option>
+                                        <option><b>Nayarit</b></option>
+                                        <option value="tepic">Tepic</option>
+                                    </select>
+                                    <h5 class="big-gray">Destino</h5>
+                                    <select class="custom-select2">
+                                        <option selected>Selecciona tu destino</option>
+                                        <option><b>Sinaloa</b></option>
+                                        <option value="lm">Los Mochis</option>
+                                        <option value="gve">Guasave</option>
+                                        <option value="gmchil">Guamuchil</option>
+                                        <option value="cul">Culiacán</option>
+                                        <option value="maz">Mazatlán</option>
+                                        <option><b>Nayarit</b></option>
+                                        <option value="tepic">Tepic</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h6 class="big-gray">Pasajeros</h6>
+                                            <div class='cb-input'>
+                                                <input id='numpasajeros' name="numpasajeros" type='number' placeholder="0" style="background: transparent; margin-bottom: 15px;" required />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6" style="margin-top: 8px;">
+                                            <h6 class="big-gray">Fecha de salida</h6>
+                                            <input autocomplete="off" class="datepicker custom-select3" placeholder="Elige tu fecha de salida" />
+                                        </div>
+                                        <div class="col-sm-6" id="ifYes" style="margin-top: 8px; opacity: 0; transition: all 0.2s ease 0s;">
+                                            <h6 class="big-gray">Fecha de regreso</h6>
+                                            <input autocomplete="off" class="datepicker custom-select3" placeholder="Elige tu fecha de regreso" />
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <img src="https://via.placeholder.com/300x100">
+                                    <p class="label">Aquí va un captcha</p>
+                                    <br>
+                                    <a href="/horarios.shtml" class="d-none d-sm-block"><button class="btn-big">Buscar boletos</button></a>
+                                    <a href="/m/horarios.shtml" class="d-block d-sm-none"><button class="btn-big">Buscar boletos</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--       ------>
+                    <div class="tab-pane fade" id="viaje" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h5 class="big-gray">Origen</h5>
+                                    <select class="custom-select2" id='origenvan'>
+                                        <option selected>Selecciona tu origen</option>
+                                        <option><b>Sinaloa</b></option>
+                                        <option value="lm">Los Mochis</option>
+                                        <option value="gve">Guasave</option>
+                                        <option value="gmchil">Guamuchil</option>
+                                        <option value="cul">Culiacán</option>
+                                        <option value="maz">Mazatlán</option>
+                                        <option><b>Nayarit</b></option>
+                                        <option value="tepic">Tepic</option>
+                                    </select>
+                                    <h5 class="big-gray">Destino</h5>
+                                    <select class="custom-select2" id="destinovan">
+                                        <option selected>Selecciona tu destino</option>
+                                        <option><b>Sinaloa</b></option>
+                                        <option value="lm">Los Mochis</option>
+                                        <option value="gve">Guasave</option>
+                                        <option value="gmchil">Guamuchil</option>
+                                        <option value="cul">Culiacán</option>
+                                        <option value="maz">Mazatlán</option>
+                                        <option><b>Nayarit</b></option>
+                                        <option value="tepic">Tepic</option>
+                                        <option><b>Estados Unidos</b></option>
+                                        <option value="sanfrancisco">San Francisco</option>
+                                    </select>
+                                    <div class="seguro" id="sanfrancisco" style="display: none;">
+                                        <p class="label">*Se incluye costo adicional de seguro vehicular.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h6 class="big-gray">Pasajeros</h6>
+                                            <select class="custom-select">
+                                                <option selected>Pasajeros</option>
+                                                <option value="1">1 a 5</option>
+                                                <option value="2">5 a 10</option>
+                                                <option value="3">10 a 15</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h6 class="big-gray">Fecha de salida</h6>
+                                            <input autocomplete="off" class="datepicker custom-select3" placeholder="Elige tu fecha de salida" />
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="big-gray">Fecha de regreso</h6>
+                                            <input autocomplete="off" class="datepicker custom-select3" placeholder="Elige tu fecha de regreso" />
+                                        </div>
+                                        <div class="col-sm-12">
+                                           <br>
+                                            <input type="checkbox" id="checkbox2" /><label for="checkbox2"><h6 class="big-gray" style="padding-bottom: 5px;">¿Incluír chofer?</h6></label>
+                                            <br>
+                                            <img src="https://via.placeholder.com/300x100">
+                                            <p class="label">Aquí va un captcha</p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <br>
+                                    <p>Traza tu ruta <a class="rosa-sub" href="http://app.sct.gob.mx/sibuac_internet/ControllerUI?action=cmdEscogeRuta" target="blank">con esta herramienta.</a></p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="/cotizarvan.shtml"><button class="btn-big">Cotizar viaje</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--       ------>
+                    <div class="tab-pane fade" id="paquete" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6 col-12">
+                                    <h5 class="big-gray">Origen</h5>
+                                    <select class="custom-select2">
+                                        <option selected>Selecciona tu origen</option>
+                                        <option><b>Sinaloa</b></option>
+                                        <option value="lm">Los Mochis</option>
+                                        <option value="gve">Guasave</option>
+                                        <option value="gmchil">Guamuchil</option>
+                                        <option value="cul">Culiacán</option>
+                                        <option value="maz">Mazatlán</option>
+                                        <option><b>Nayarit</b></option>
+                                        <option value="tepic">Tepic</option>
+                                    </select>
+                                    <h5 class="big-gray">Destino</h5>
+                                    <select class="custom-select2">
+                                        <option selected>Selecciona tu destino</option>
+                                        <option><b>Sinaloa</b></option>
+                                        <option value="lm">Los Mochis</option>
+                                        <option value="gve">Guasave</option>
+                                        <option value="gmchil">Guamuchil</option>
+                                        <option value="cul">Culiacán</option>
+                                        <option value="maz">Mazatlán</option>
+                                        <option><b>Nayarit</b></option>
+                                        <option value="tepic">Tepic</option>
+                                    </select>
+                                    <div class="row medidas">
+                                        <div class="col-sm-12">
+                                            <br>
+                                            <h5 class="big-gray">Medidas del paquete</h5>
+                                        </div>
+                                        <div class="col-sm-2 col-2">
+                                            <h6 class="big-gray">Largo</h6>
+                                            <div class='cb-input'>
+                                                <input id='cm1' name="cm1" type='text' placeholder="0" required />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-1 col-1">
+                                            <p>CM</p>
+                                        </div>
+                                        <div class="col-sm-2 col-2">
+                                            <h6 class="big-gray">Ancho</h6>
+                                            <div class='cb-input'>
+                                                <input id='cm2' name="cm2" type='text' placeholder="0" required />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-1 col-1">
+                                            <p>CM</p>
+                                        </div>
+                                        <div class="col-sm-2 col-2">
+                                            <h6 class="big-gray">Alto</h6>
+                                            <div class='cb-input'>
+                                                <input id='cm3' name="cm3" type='text' placeholder="0" required />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-1 col-1">
+                                            <p>CM</p>
+                                        </div>
+                                        <div class="col-sm-3 col-3" style="z-index: 999999999;">
+                                            <div class="wrapper3">
+                                                <div class="tooltip3">
+                                                    <div class="row">
+                                                        <div class="col-sm-12 text-center">
+                                                            <img src="/img/medidas-caja.jpg" class="img-responsive" style="width: 105%;">
+                                                            <h5 class="big-pink-op">Medidas máximas</h5>
+                                                            <h6 class="big-blue">LARGO: ## CM</h6>
+                                                            <h6 class="big-blue">ANCHO: ## CM</h6>
+                                                            <h6 class="big-blue">ALTO: ## CM</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-6">
+                                            <h6 class="big-gray">Tipo de paquete</h6>
+                                            <select class="custom-select">
+                                                <option selected>Carga general</option>
+                                                <option value="1">Tipo de paquete 2</option>
+                                                <option value="2">Tipo de paquete 3</option>
+                                                <option value="3">Tipo de paquete 4</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-sm-3 col-3">
+                                            <h6 class="big-gray">Peso(KG)</h6>
+                                            <div class='cb-input'>
+                                                <input id='pesokg' name="pesokg" type='text' placeholder="1" style="background: transparent;" required />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-3" style="z-index: 999999999;">
+                                            <div class="wrapper4">
+                                                <div class="tooltip4">
+                                                    <div class="row">
+                                                        <div class="col-sm-12 text-center">
+                                                            <h5 class="big-pink-op">Peso máximo</h5>
+                                                            <h6 class="big-blue">HASTA ### KG</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <h6 class="big-gray">Valor declarado*</h6>
+                                    <div class='cb-input'>
+                                        <input id='valordec' name="valordec" type='text' placeholder="$" style="background: transparent;" required />
+                                    </div>
+                                    <br><br>
+                                    <img src="https://via.placeholder.com/300x100">
+                                    <p class="label">Aquí va un captcha</p>
+                                    <br>
+                                    <a href="/preciosenvio.shtml"><button class="btn-big">Cotizar</button></a>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="importante-paquete">
+                                <p style="font-size: 12px;">*Si usted incluye valor declarado su embarque irá protegido con nuestro seguro de envío por la misma cantidad.</p>
+                                <p style="font-size: 12px; margin-top: -10px">*El importe estimado se confirmará al momento de la recepción del paquete por personal de All Abordo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+    </div>
+
+    <div class="container pad text-center pagos">
+        <div class="row">
+            <div class="col-sm-2 offset-md-1 col-12">
+                <h6>Compra segura <i class="fas fa-lock"></i></h6>
+            </div>
+            <div class="col-sm-2 col-3"><img src="/img/vectores/paypal.svg" class="img-responsive"></div>
+            <div class="col-sm-2 col-3"><img src="/img/vectores/Visa.svg" class="img-responsive"></div>
+            <div class="col-sm-2 col-3"><img src="/img/vectores/MasterCard.svg" class="img-responsive"></div>
+            <div class="col-sm-2 col-3"><img src="img/vectores/AmericanExpress.svg" class="img-responsive"></div>
+        </div>
+    </div>
+
+    <div class="container pad">
+        <div class="row">
+            <div class="col-sm-4 col-12">
+                <a href="/solicitartarjeta.shtml"><img src="/img/solicitatutarjeta.jpg" class="img-responsive tarjeta"></a>
+            </div>
+            <div class="col-sm-8 col-12">
+                <div class="row rastrear">
+                    <div class="col-sm-10 col-8">
+                        <h2>Rastrea tu paquete</h2>
+                    </div>
+                    <div class="col-sm-2 col-4">
+                        <img src="/img/vectores/rast-paq.svg" class="img-responsive">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class='cb-input'>
+                            <input id='rastrear' name="rastrear" type='text' placeholder="Ingresa el folio de rastreo de tu paquete." style="background-color: rgba(255, 255, 255, 0.2); height: 50px; border: 1px solid transparent;" required />
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="/rastreo.shtml"><button class="btn-med">Rastrear Paquete</button></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9 col-8">
+                        <h2 class="big-blue">Recibe ofertas y promociones exclusivas en tu correo</h2>
+                        <br>
+                        <p>Quiero suscribirme al boletín de All Abordo para recibir promociones exclusivas en mi correo electrónico.</p>
+                        <br>
+                    </div>
+                    <div class="col-sm-3 col-4">
+                        <img src="/img/ofertas-correo.png" class="img-responsive">
+                    </div>
+                    <div class="col-sm-8 col-12">
+                        <div class='cb-input'>
+                            <input id='boletin' name="boletin" type='text' placeholder="Correo electrónico" required />
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <button class="btn-med">Suscribirme</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="/include/footer.htm"-->
+
+</body>
+
+</html>

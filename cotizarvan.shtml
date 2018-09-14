@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>All Abordo ¡Tú eliges el destino!</title>
+    <meta name="description" content="Nacemos de la motivación por mejorar los servicios de transporte de pasajeros, ofreciendo una mejor alternativa en comodidad, seguridad y confianza.">
+    <meta name="keywords" content="renta vehiculo, renta de vehiculo, renta de van, van, excursion, excursiones, viajes vacacionales, vacaciones, viajes empresariales, empresas, transportacion de personal, viajes escolares, escuelas, viaje redondo, viaja por mexico, viaja por méxico, elige tu destino">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" rel="stylesheet" type="text/css">
+    <link href="/css/inputs.css" rel="stylesheet" type="text/css">
+    <link href="/css/wizard.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--#include virtual="/include/menu.htm"-->
+
+    <div class="container-fluid hero-rosa pad">
+        <div class="row">
+            <div class="col-sm-8">
+                <br><br><br>
+                <h1 class="big-white">Cotiza tu viaje</h1>
+            </div>
+            <div class="col-sm-4">
+                <img src="/img/van01.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+
+    <form method="POST" action="">
+        <div class="container pad">
+            <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                    <div id="app">
+                        <step-navigation :steps="steps" :currentstep="currentstep">
+                        </step-navigation>
+                        <div v-show="currentstep == 1">
+                           <h3 class="big-gray">Agrega tus datos personales</h3>
+                           <br>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p>Nombre(s):</p>
+                                    <div class='cb-input blueplace'>
+                                        <input id='nombre' name="nombre" type='text' placeholder="Escribe tu(s) nombre(s) y apellido(s)" required />
+                                    </div>
+                                    <br>
+                                    <p>Apellidos:</p>
+                                    <div class='cb-input blueplace'>
+                                        <input id='nombre' name="nombre" type='text' placeholder="Escribe tu(s) nombre(s) y apellido(s)" required />
+                                    </div>
+                                    <br>
+                                    <p>Email:</p>
+                                    <div class='cb-input blueplace'>
+                                        <input id='correo' name="correo" type='text' placeholder="Escribe tu correo electrónico" required />
+                                    </div>
+                                    <br>
+                                    <p>Teléfono:</p>
+                                    <div class='cb-input blueplace'>
+                                        <input id='tel' name="tel" type='text' placeholder="Escribe tu teléfono" required />
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div v-show="currentstep == 2">
+                            <h3 class="big-gray">Confirma tu información</h3>
+                            <br>
+                            <div class="row">
+                               <div class="col-sm-12" style="display: flex; padding-bottom: 20px;">
+                                   <h4 class="big-gray">Costo aproximado:</h4>
+                                   <h3 class="big-pink-op" style="padding-left: 20px;"> $2500.00</h3>
+                               </div>
+                                <div class="col-sm-6">
+                                   <h4 class="big-gray">Datos personales</h4>
+                                   <br>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h6 class="big-gray">Nombre(s):</h6>
+                                            <h5 class="big-blue">Axel</h5>
+                                        </div>
+                                        <div class="col-sm-6">
+                                           <h6 class="big-gray">Apellidos:</h6>
+                                            <h5 class="big-blue">Galván Díaz</h5>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h6 class="big-gray">Email:</h6>
+                                            <h5 class="big-pink-op">axel@borealstudio.mx</h5>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="big-gray">Teléfono:</h6>
+                                            <h5 class="big-pink-op">668 145 78 96</h5>
+                                        </div>
+                                    </div>
+                                    <br><br><br>
+                                    <button class="btn-med-rosa">Editar datos</button>
+                                </div>
+                                <div class="col-sm-6">
+                                   <h4 class="big-gray">Datos del viaje</h4>
+                                   <br>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h6 class="big-gray">Origen</h6>
+                                            <h5 class="big-blue">Los Mochis, Sinaloa</h5>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="big-gray">Destino</h6>
+                                            <h5 class="big-blue">Culiacán, Sinaloa</h5>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h6 class="big-gray">Nº Pasajeros</h6>
+                                            <h5 class="big-pink-op">13</h5>
+                                        </div>
+                                        <div class="col-sm-6">
+                                           <h6 class="big-gray">Fecha de salida</h6>
+                                            <h5 class="big-pink-op">22/08/18</h5>
+                                            
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="big-gray">Incluye chofer</h6>
+                                            <h5 class="big-pink-op">No</h5>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="big-gray">Fecha de regreso</h6>
+                                            <h5 class="big-pink-op">01/09/2018</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                        <step v-for="step in steps" :currentstep="currentstep" :key="step.id" :step="step" :stepcount="steps.length" @step-change="stepChanged">
+                        </step>
+
+                        <script type="x-template" id="step-navigation-template">
+                            <ol class="step-indicator">
+                                <li v-for="step in steps" is="step-navigation-step" :key="step.id" :step="step" :currentstep="currentstep">
+                                </li>
+                            </ol>
+                        </script>
+
+                        <script type="x-template" id="step-navigation-step-template">
+                            <li :class="indicatorclass">
+                                <div class="step"><i :class="step.icon_class"></i></div>
+                                
+                            </li>
+                        </script>
+
+                        <script type="x-template" id="step-template">
+                            <div class="step-wrapper" :class="stepWrapperClass">
+                                <button type="button" class="btn btn-sm-rosa" @click="lastStep" :disabled="firststep">
+                                    Anterior
+                                </button>
+                                <button type="button" class="btn btn-sm-rosa" @click="nextStep" :disabled="laststep">
+                                    Siguiente
+                                </button>
+                                <button type="submit" class="btn btn-med" v-if="laststep">
+                                    Cotizar
+                                </button>
+                            </div>
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!--#include virtual="/include/footer.htm"-->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.js'></script>
+
+    <script>
+        Vue.component("step-navigation-step", {
+            template: "#step-navigation-step-template",
+
+            props: ["step", "currentstep"],
+
+            computed: {
+                indicatorclass() {
+                    return {
+                        active: this.step.id == this.currentstep,
+                        complete: this.currentstep > this.step.id
+                    };
+                }
+            }
+        });
+
+        Vue.component("step-navigation", {
+            template: "#step-navigation-template",
+
+            props: ["steps", "currentstep"]
+        });
+
+        Vue.component("step", {
+            template: "#step-template",
+
+            props: ["step", "stepcount", "currentstep"],
+
+            computed: {
+                active() {
+                    return this.step.id == this.currentstep;
+                },
+
+                firststep() {
+                    return this.currentstep == 1;
+                },
+
+                laststep() {
+                    return this.currentstep == this.stepcount;
+                },
+
+                stepWrapperClass() {
+                    return {
+                        active: this.active
+                    };
+                }
+            },
+
+            methods: {
+                nextStep() {
+                    this.$emit("step-change", this.currentstep + 1);
+                },
+
+                lastStep() {
+                    this.$emit("step-change", this.currentstep - 1);
+                }
+            }
+        });
+
+        new Vue({
+            el: "#app",
+
+            data: {
+                currentstep: 1,
+
+                steps: [{
+                        id: 1,
+
+                        icon_class: "fas fa-user"
+                    },
+                    {
+                        id: 2,
+                        icon_class: "fas fa-clipboard-check"
+                    },
+                ]
+            },
+
+            methods: {
+                stepChanged(step) {
+                    this.currentstep = step;
+                }
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
