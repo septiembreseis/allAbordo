@@ -53,8 +53,8 @@
     
     
     
+    <script type=“text/javascript” src=“https://maps.googleapis.com/maps/api/js?key=AIzaSyBlbP_V6RFfZTyJamXyD7mThTRp-ejpVew&libraries=places“></script>
     <!--#include virtual="/include/footer.htm"-->
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlbP_V6RFfZTyJamXyD7mThTRp-ejpVew&libraries=places"></script> 
 
 
 </body>
