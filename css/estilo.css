@@ -1,152 +1,154 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 
-p{
+p {
     color: #737277;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
-a button:hover{
+a button:hover {
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
-.divider{
+.divider {
     border: 1px solid #B0AFB5;
 }
 
-.big-blue{
+.big-blue {
     color: #27387E;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
-.big-blue-mon{
+.big-blue-mon {
     color: #27387E;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
-.big-gray-mon{
+.big-gray-mon {
     color: #737277;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
-.big-gray{
+.big-gray {
     color: #737277;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
-.big-green{
+
+.big-green {
     color: #417505;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
-.big-pink{
+.big-pink {
     color: #D01D56;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
-.big-pink-op{
+.big-pink-op {
     color: #D01D56;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
-.big-white{
+.big-white {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 3.5em;
 }
 
-.big-white-op{
+.big-white-op {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
-.bigbig-white{
+.bigbig-white {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 5.5em;
 }
 
-.rosa-sub{
+.rosa-sub {
     color: #D01D56;
     text-decoration: underline;
 }
 
-.rosa-sub:hover{
+.rosa-sub:hover {
     color: #D01D56;
     text-decoration: underline;
 }
 
-nav{
+nav {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
-.navbar-nav a{
+.navbar-nav a {
     color: #27387E;
 }
 
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: #D01D56;
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #D01D56;
 }
 
-.sesion{
+.sesion {
     background-color: #E0DFE5;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 13px;
 }
 
-.sesion span{
+.sesion span {
     margin: 0 10px;
     color: #4A4A4A;
 }
 
-.sesion a{
+.sesion a {
     color: #4A4A4A;
 }
 
-.sesion a:hover{
+.sesion a:hover {
     text-decoration: none;
     cursor: pointer;
 }
 
-.sesion img{
+.sesion img {
     margin-right: 8px;
 }
 
-.submenu{
+.submenu {
     background-color: #27387E;
     padding: 10px 0 10px 10px;
 }
 
-.submenu span{
+.submenu span {
     margin: 0 0 0 10px;
 }
 
-.submenu a{
+.submenu a {
     color: #FFFFFF;
 }
 
-.submenu a:hover{
+.submenu a:hover {
     text-decoration: none;
     cursor: pointer;
 }
 
-.item1{
+.item1 {
     background: url(../img/slide-autobus.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -154,7 +156,7 @@ nav{
     height: 350px;
 }
 
-.item2{
+.item2 {
     background: url(../img/slide-paquete.jpg);
     background-repeat: no-repeat;
     background-position: top 20% center;
@@ -162,7 +164,7 @@ nav{
     height: 350px;
 }
 
-.item3{
+.item3 {
     background: url(../img/slide-van.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -172,35 +174,35 @@ nav{
 
 
 .nav-tabs {
-/*  border-bottom: 1px solid #dee2e6;*/
-  height: 50px;
+    /*  border-bottom: 1px solid #dee2e6;*/
+    height: 50px;
 }
 
-.pestanas-index{
+.pestanas-index {
     padding-top: 50px;
 }
 
-.nav-tabs .nav-link img{
+.nav-tabs .nav-link img {
     width: 12%;
 }
 
-.nav-tabs .nav-link.active img{
+.nav-tabs .nav-link.active img {
     width: 13%;
 }
 
-.label{
+.label {
     padding-top: 5px;
-    font-size:.8em;
+    font-size: .8em;
 }
 
 /**************************/
 
-.pad{
+.pad {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.lista-gris ul li{
+.lista-gris ul li {
     color: #737277;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -208,7 +210,7 @@ nav{
     padding-top: 15px;
 }
 
-.rastrear{
+.rastrear {
     background-color: #D01D56;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -217,12 +219,12 @@ nav{
     margin: 0 0 50px 0;
 }
 
-.rastrear img{
+.rastrear img {
     padding: 5px 5px 20px 5px;
 }
 
 
-.btn-sm-rosa{
+.btn-sm-rosa {
     background-color: #D01D56;
     border: 1px solid transparent;
     color: #ffffff;
@@ -233,7 +235,7 @@ nav{
     height: 50px;
 }
 
-.btn-med{
+.btn-med {
     background-color: #27387E;
     border: 1px solid transparent;
     color: #ffffff;
@@ -244,24 +246,39 @@ nav{
     height: 50px;
 }
 
-.btn-med-rosa{
+.btn-med-rosa {
     background-color: #D01D56;
     border: 1px solid transparent;
     color: #ffffff;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     font-weight: 400;
     width: 180px;
     height: 50px;
     margin-bottom: 10px;
 }
 
-.btn-med-rosa img{
+.btn-med-rosa img {
     padding-left: 5px;
     width: 19%;
 }
 
-.btn-big{
+
+.btn-med-gris {
+    background-color: #737277;
+    border: 1px solid transparent;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 180px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.btn-big {
     background-color: #27387E;
     border: 1px solid transparent;
     color: #ffffff;
@@ -273,7 +290,7 @@ nav{
     height: 70px;
 }
 
-.btn-whats{
+.btn-whats {
     background-color: #27387E;
     border: 1px solid #ffffff;
     border-radius: 50px;
@@ -284,7 +301,7 @@ nav{
     text-align: left;
 }
 
-.btn-historial{
+.btn-historial {
     -webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
@@ -306,7 +323,7 @@ nav{
     text-align: left;
 }
 
-.btn-historial:hover{
+.btn-historial:hover {
     cursor: pointer;
 }
 
@@ -355,7 +372,34 @@ nav{
 }
 
 
-footer{
+.btn-pasajeros {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #B0AFB5;
+    background: url(../img/vectores/f1pasajeros.svg);
+    background-repeat: no-repeat;
+    background-position: right 5% center;
+    color: #27387E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.btn-pasajeros:hover {
+    cursor: pointer;
+}
+
+.modal-largo {
+    max-width: 700px !important;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+footer {
     background-color: #27387E;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -364,53 +408,53 @@ footer{
     padding: 70px 40px 15px 40px;
 }
 
-footer  ul a{
+footer ul a {
     color: #ffffff;
     text-decoration: none;
 }
 
-footer  ul a:hover{
+footer ul a:hover {
     color: #ffffff;
     text-decoration: none;
 }
 
-footer h4{
+footer h4 {
     font-weight: 300;
 }
 
-footer ul li{
+footer ul li {
     list-style-type: none;
     padding-bottom: 5px;
 }
 
-footer span{
+footer span {
     font-size: 14px;
 }
 
-footer span a{
+footer span a {
     color: #ffffff;
     border-left: 1px solid #D01D56;
     padding: 0 10px 0 10px;
 }
 
-footer span a:hover{
+footer span a:hover {
     color: #ffffff;
     text-decoration: none;
 }
 
-.redes img{
+.redes img {
     margin: 0 20px 0 30px;
 }
 
 /**************************/
 
-.hero-rosa{
+.hero-rosa {
     background-color: #D01D56;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.hero-rosa-paq{
+.hero-rosa-paq {
     background: url(../img/paq-rastreo.png) #D01D56;
     background-position: center right;
     background-repeat: no-repeat;
@@ -418,7 +462,7 @@ footer span a:hover{
     padding-right: 50px;
 }
 
-.hero-nosotros{
+.hero-nosotros {
     background: url(../img/heronosotros.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -426,11 +470,22 @@ footer span a:hover{
     height: 450px;
 }
 
-.hero-nosotros h1{
+.hero-nosotros h1 {
     padding-top: 10%;
 }
 
-.banner-destino{
+
+.hero-van {
+    background-color: #ffffff;
+    background-image: url(../img/grad-contrast-hero.png);
+    background-repeat: no-repeat;
+    background-position: bottom left 23%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+}
+
+.banner-destino {
     background-image: url(../img/banner-destino.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -438,31 +493,33 @@ footer span a:hover{
     height: 450px;
 }
 
-.van-fondo{
+.van-fondo {
     background-image: url(../img/vanFondo.png);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: left 110% center;
-    
+
 }
-.altura{
+
+.altura {
     height: 100px;
     padding: 10px 10px 10px 10px;
 }
 
-.bienvenida-nos{
+.bienvenida-nos {
     background-color: #D01D56;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.bienvenida-nos p{
+
+.bienvenida-nos p {
     color: #ffffff;
     padding-top: 20px;
     font-weight: 300;
     font-size: 18px;
 }
 
-.no-transportable{
+.no-transportable {
     background: url(../img/no-transportable.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -474,7 +531,7 @@ footer span a:hover{
     font-weight: 300;
 }
 
-.quienes{
+.quienes {
     background: url(../img/Quienessomos.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -484,46 +541,46 @@ footer span a:hover{
     text-align: justify;
 }
 
-.quienes p{
+.quienes p {
     color: #ffffff;
     font-weight: 300;
     font-size: 18px;
 }
 
-.reconocimientos .col-sm-4{
+.reconocimientos .col-sm-4 {
     border: 1px solid #B0AFB5;
     padding: 50px 0 50px 0;
 }
 
-.reconocimientos img{
+.reconocimientos img {
     padding: 10px 0 20px 0;
 }
 
-.politicas-viaje .col-sm-6{
+.politicas-viaje .col-sm-6 {
     border: 1px solid #B0AFB5;
     padding: 100px 30px 100px 30px;
 }
 
 
-.contacto-nos ul li{
-    list-style-type:none;
+.contacto-nos ul li {
+    list-style-type: none;
     padding-top: 10px;
     color: #737277;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-4
-.contacto-nos ul li img{
+
+4 .contacto-nos ul li img {
     margin: 0 15px;
 }
 
-.contacto-nos h4{
+.contacto-nos h4 {
     color: #737277;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
-.desc-politicas{
+.desc-politicas {
     background: url(../img/desc-politicas.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -533,13 +590,13 @@ footer span a:hover{
     text-align: center;
 }
 
-.desc-politicas h2{
+.desc-politicas h2 {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
-.desc-tarjeta{
+.desc-tarjeta {
     background: url(../img/back-tarjeta.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -549,13 +606,13 @@ footer span a:hover{
     text-align: center;
 }
 
-.desc-tarjeta h2{
+.desc-tarjeta h2 {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
-.desc-restr{
+.desc-restr {
     background: url(../img/restricciones.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -565,13 +622,13 @@ footer span a:hover{
     text-align: center;
 }
 
-.desc-restr h2{
+.desc-restr h2 {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
-.restricciones ul li{
+.restricciones ul li {
     list-style-type: none;
     padding-top: 10px;
     color: #737277;
@@ -580,11 +637,11 @@ footer span a:hover{
     font-size: 1.5em;
 }
 
-.restricciones ul li img{
+.restricciones ul li img {
     margin: 0 15px 10px;
 }
 
-.lil-blue{
+.lil-blue {
     color: #27387E;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -592,7 +649,7 @@ footer span a:hover{
 }
 
 
-.estatus-corrida{
+.estatus-corrida {
     background-color: #27387E;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -601,31 +658,31 @@ footer span a:hover{
     padding: 15px 15px 15px 15px;
 }
 
-.medidas p{
+.medidas p {
     margin-top: 40px;
     margin-left: -20px;
 }
 
-.tab-content{
-/*    height: 800px;*/
+.tab-content {
+    /*    height: 800px;*/
     padding: 50px 10px 20px 10px;
 }
 
-#boleto{
+#boleto {
     background-image: url(../img/back-compra.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: right bottom;
 }
 
-#viaje{
+#viaje {
     background-image: url(../img/back-renta.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: right bottom;
 }
 
-#paquete{
+#paquete {
     background-image: url(../img/back-envio.png);
     background-size: auto;
     background-repeat: no-repeat;
@@ -633,22 +690,22 @@ footer span a:hover{
 }
 
 
-.detalle{
+.detalle {
     background-color: #fff;
     color: #000;
     margin-right: 10px;
 }
 
-.detalle p{
+.detalle p {
     color: #000000;
 }
 
-.detalle .fas{
+.detalle .fas {
     color: #27387E;
     font-size: .8em;
 }
 
-.mdestino{
+.mdestino {
     border: 2px solid #9B9B9B;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -658,36 +715,107 @@ footer span a:hover{
 
 
 
-.m-btn-med-rosa{
-        background-color: #D01D56;
-        border: 1px solid transparent;
-        color: #ffffff;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 0.8em;
-        font-weight: 600;
-        width: 150px;
-        height: 50px;
-        margin-bottom: 10px;
-    }
-.m-btn-med-rosa img{
+.m-btn-med-rosa {
+    background-color: #D01D56;
+    border: 1px solid transparent;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.m-btn-med-rosa img {
     width: 15%;
 }
 
-.mlabel{
+.mlabel {
     padding-top: 5px;
-    font-size:.8em;
+    font-size: .8em;
     color: #D01D56;
 }
 
-html, body, #map-canvas {
-    height: 90%;
-    margin: 0px;
-    padding: 0px
+/** select input **/
+
+.input-stepper {
+  background: white;
+/*  display: inline-block;*/
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 20px 10px 20px 10px;
+  text-align: center;
 }
 
-@media(max-width: 1025px){
-        .btn-med-rosa{
+
+.input-stepper button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid #27387E;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 8px 12px 8px 12px;
+}
+
+.input-stepper button[disabled] {
+  cursor: not-allowed;
+  opacity: .4;
+}
+
+.input-stepper button i {
+   color: #27387E;
+  font-size: 14px;
+}
+
+.input-stepper input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  color: #737277;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+  width: 56px;
+}
+
+
+.page-item:last-child .page-link {
+    background-color: #D01D56;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #D01D56;
+    border-color: transparent;
+    border-radius: 0px;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #ffffff;
+    background-color: #27387E;
+    border: 1px solid #ffffff;
+}
+
+/** ************************ **/
+
+@media(max-width: 1025px) {
+    .btn-med-rosa {
         background-color: #D01D56;
         border: 1px solid transparent;
         color: #ffffff;
@@ -699,15 +827,15 @@ html, body, #map-canvas {
         margin-bottom: 10px;
     }
 
-    .btn-med-rosa img{
+    .btn-med-rosa img {
         padding-left: 10px;
         width: 23%;
     }
 }
 
 
-@media(max-width: 768px){
-        .btn-whats{
+@media(max-width: 768px) {
+    .btn-whats {
         background-color: #27387E;
         border: 1px solid #ffffff;
         border-radius: 50px;
@@ -718,20 +846,20 @@ html, body, #map-canvas {
         text-align: left;
         margin-top: 30px;
     }
-    
-    .btn-whats h5{
+
+    .btn-whats h5 {
         font-size: 1rem;
     }
-    
-    .btn-whats h6{
+
+    .btn-whats h6 {
         font-size: 0.9rem;
     }
-    
-        .redes img{
+
+    .redes img {
         margin: 0 0 0 30px;
     }
-    
-        .rastrear{
+
+    .rastrear {
         background-color: #D01D56;
         color: #ffffff;
         font-family: 'Open Sans', sans-serif;
@@ -739,12 +867,12 @@ html, body, #map-canvas {
         padding: 35px 10px 35px 10px;
         margin: 30px 5px 50px 5px;
     }
-    
-    .tarjeta{
+
+    .tarjeta {
         margin: 0 40px;
     }
-    
-    .hero-nosotros{
+
+    .hero-nosotros {
         background: url(../img/heronosotros.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -752,17 +880,17 @@ html, body, #map-canvas {
         height: 300px;
     }
 
-    .hero-nosotros h1{
+    .hero-nosotros h1 {
         padding-top: 20%;
     }
-    
-    .bienvenida-nos{
+
+    .bienvenida-nos {
         background-color: #D01D56;
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    
-    .quienes{
+
+    .quienes {
         background: url(../img/Quienessomos.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -773,22 +901,22 @@ html, body, #map-canvas {
         text-align: justify;
     }
 
-    .quienes p{
+    .quienes p {
         color: #ffffff;
         font-weight: 300;
         font-size: 16px;
     }
-    
-    .reconocimientos .col-sm-4{
+
+    .reconocimientos .col-sm-4 {
         border: 1px solid #B0AFB5;
         padding: 50px 0 50px 0;
     }
 
-    .reconocimientos img{
+    .reconocimientos img {
         padding: 10px 0 20px 0;
     }
-    
-        .banner-destino{
+
+    .banner-destino {
         background-image: url(../img/banner-destino.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -796,8 +924,8 @@ html, body, #map-canvas {
         height: 500px;
         padding: 0px 30px 20px 30px;
     }
-    
-        .estatus-corrida{
+
+    .estatus-corrida {
         background-color: #27387E;
         color: #ffffff;
         font-family: 'Open Sans', sans-serif;
@@ -805,8 +933,8 @@ html, body, #map-canvas {
         height: 400px;
         padding: 20px 35px 15px 35px;
     }
-    
-        .btn-big{
+
+    .btn-big {
         background-color: #27387E;
         border: 1px solid transparent;
         color: #ffffff;
@@ -818,26 +946,26 @@ html, body, #map-canvas {
         height: 70px;
         margin: 20px 70px 0px 70px;
     }
-    
-    .serv-cliente{
+
+    .serv-cliente {
         padding: 10px 10px 10px 10px;
     }
-    
-        .nav-tabs {
-      height: 90px;
+
+    .nav-tabs {
+        height: 90px;
     }
-    
-        .nav-tabs .nav-item {
+
+    .nav-tabs .nav-item {
         margin-bottom: -1px;
         width: 33%;
     }
-    
-    
+
+
 }
 
-@media(max-width: 544px){
-    
-        .nav-tabs .nav-link {
+@media(max-width: 544px) {
+
+    .nav-tabs .nav-link {
         border: 1px solid transparent;
         border-top-left-radius: 0.25rem;
         border-top-right-radius: 0.25rem;
@@ -849,29 +977,30 @@ html, body, #map-canvas {
         transition: 0.18s ease-in;
         background-color: #27387E;
     }
-    
-        .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-item.show .nav-link {
         color: #ffffff;
         font-size: 1em;
         background-color: #D01D56;
     }
-    
+
     .nav-tabs .nav-link img {
         width: 12%;
         filter: brightness(0) invert(1);
     }
-    
+
     .nav-tabs .nav-link.active img {
         width: 13%;
         filter: brightness(0) invert(1);
-        
+
     }
-    
-    .pagos img{
+
+    .pagos img {
         width: 70%;
     }
-    
-        .btn-med{
+
+    .btn-med {
         background-color: #27387E;
         border: 1px solid transparent;
         color: #ffffff;
@@ -882,9 +1011,9 @@ html, body, #map-canvas {
         height: 50px;
         margin-top: 15px;
     }
-    
+
     .nav-tabs {
-      height: 40px;
+        height: 40px;
     }
-    
+
 }
